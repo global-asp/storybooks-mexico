@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Storybooks México</title>
-    <description>Storybooks México is designed specifically for teachers, parents, and community members and makes 40 stories from the African Storybook available with text and audio in Spanish and English, as well as the most widely spoken languages of México.
+    <title>Cuentos para México</title>
+    <description>Cuentos para México se diseñó específicamente para docentes, padres de familia, e integrantes de las comunidades indígenas. Pone a su disposición 40 cuentos del African Storybook con su texto y audio en español e inglés, así como en otras lenguas nacionales mexicanas.
 </description>
     <link>https://global-asp.github.io//storybooks-mexico/</link>
     <atom:link href="https://global-asp.github.io//storybooks-mexico/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Apr 2018 18:12:25 -0700</pubDate>
-    <lastBuildDate>Thu, 05 Apr 2018 18:12:25 -0700</lastBuildDate>
+    <pubDate>Fri, 06 Apr 2018 13:12:13 -0700</pubDate>
+    <lastBuildDate>Fri, 06 Apr 2018 13:12:13 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
   </channel>
