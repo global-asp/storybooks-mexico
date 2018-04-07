@@ -70,12 +70,14 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/01.jpg"></div>
 	<div class=" column col-7 col-lg-12 col-md-12 col-sm-12">
 		<h1><span class="def">一个很高的人</span>
-<span class="l1">Un hombre muy alto</span>
-<span class="l2">A very tall man</span>
+			<span class="l1">Un hombre muy alto</span>
+			<span class="l2">A very tall man</span>
 			<div class="btn-group">
 				<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
 				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 				<audio id="audio01" onended="resetbutton('01')" src="http://globalstorybooks.net/media/audio/zh/0001/mp3/01.mp3"></audio>
+				<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre Chinese (Mandarin) y español">es</button>
+				<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre Chinese (Mandarin) y inglés">en</button>
 			</div>
 		</h1>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon" src="/storybooks-mexico/css/pencil.svg" alt="Texto" width="38px"></span> Cornelius Gulere</h3>
