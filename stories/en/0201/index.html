@@ -76,7 +76,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-mexico/stories/en" class="button">Regresar a lista de cuentos</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-mexico/stories/en">Regresar a lista de cuentos</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/01.jpg"></div>
@@ -84,21 +84,21 @@
 		<h1><span class="def">Donkey Child</span>
 			<span class="l1">El Niño Burro</span>
 			<span class="l2">Donkey Child</span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/en/0201/mp3/01.mp3"></audio>
-				<button onclick="switchlang('en,es','es,en,en')" class="btn btn-lg lang-primary" title="Cambiar entre English y español">es</button>
-				<button onclick="switchlang('en,en','es,en,en')" class="btn btn-lg lang-secondary" title="Cambiar entre English y inglés">en</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon" src="/storybooks-mexico/css/pencil.svg" alt="Texto" width="38px"></span> Lindiwe Matshikiza</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones" width="38px"></span> Meghan Judge</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lectura en voz alta"><img class="cover-icon" src="/storybooks-mexico/css/megaphone.svg" alt="Lectura en voz alta" width="38px"></span> Darshan Soni</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon" src="/storybooks-mexico/css/language.svg" alt="Lengua" width="38px"></span> <a href="/storybooks-mexico/stories/en">inglés</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon" src="/storybooks-mexico/css/level.svg" alt="Nivel" width="38px"></span> <a href="/storybooks-mexico/stories/en/level3">Nivel 3</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/en/0201/en-0201_donkey.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/en/0201/mp3/01.mp3"></audio>
+			<button onclick="switchlang('en,es','es,en,en')" class="btn btn-lg lang-primary" title="Cambiar entre English y español">es</button>
+			<button onclick="switchlang('en,en','es,en,en')" class="btn btn-lg lang-secondary" title="Cambiar entre English y inglés">en</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon" src="/storybooks-mexico/css/pencil.svg" alt="Texto"></span> Lindiwe Matshikiza</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones"></span> Meghan Judge</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lectura en voz alta"><img class="cover-icon" src="/storybooks-mexico/css/megaphone.svg" alt="Lectura en voz alta"></span> Darshan Soni</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon" src="/storybooks-mexico/css/language.svg" alt="Lengua"></span> <a href="/storybooks-mexico/stories/en">inglés</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon" src="/storybooks-mexico/css/level.svg" alt="Nivel"></span> <a href="/storybooks-mexico/stories/en/level3">Nivel 3</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/en/0201/en-0201_donkey.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -168,12 +168,12 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	Tímida pero valientemente, la pequeña niña se acercó a la mujer. "Tenemos que cuidar de ella," decidieron los familiares de la niña pequeña. "Ella y su bebé estarán a salvo con nosotros".
+	Tímida pero valientemente, la pequeña niña se acercó a la mujer. “Tenemos que cuidar de ella,” decidieron los familiares de la niña pequeña. “Ella y su bebé estarán a salvo con nosotros”.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	Shy but brave, the little girl moved nearer to the woman.
 
-"We must keep her with us," the little girl's people decided. "We'll keep her and her child safe."
+“We must keep her with us,” the little girl’s people decided. “We’ll keep her and her child safe.”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -206,18 +206,18 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	Al poco tiempo, el bebé empezó a nacer. "¡Puja!" "¡Traigan mantas!" "¡Agua!" "¡¡¡Puuuuujjjjjaaa!!!
+	Al poco tiempo, el bebé empezó a nacer. “¡Puja!” “¡Traigan mantas!” “¡Agua!” “¡¡¡Puuuuujjjjjaaa!!!
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	The child was soon on its way.
 
-"Push!"
+“Push!”
 
-"Bring blankets!"
+“Bring blankets!”
 
-"Water!"
+“Water!”
 
-"Puuuuussssshhh!!!"
+“Puuuuussssshhh!!!”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -244,12 +244,12 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	Pero cuando vieron al recién nacido, todos se llevaron una gran sorpresa. "¡¿Un burro?!"
+	Pero cuando vieron al recién nacido, todos se llevaron una gran sorpresa. “¡¿Un burro?!”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	But when they saw the baby, everyone jumped back in shock.
 
-"A donkey?!"
+“A donkey?!”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -278,14 +278,14 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	Todos empezaron a discutir. "Prometimos que cuidaríamos de la madre y su hijo, y eso es lo que haremos," decían algunos. "¡Pero ellos nos van a traer mala suerte!" decían otros.
+	Todos empezaron a discutir. “Prometimos que cuidaríamos de la madre y su hijo, y eso es lo que haremos,” decían algunos. “¡Pero ellos nos van a traer mala suerte!” decían otros.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	Everyone began to argue.
 
-"We said we would keep mother and child safe, and that's what we'll do," said some.
+“We said we would keep mother and child safe, and that’s what we’ll do,” said some.
 
-"But they will bring us bad luck!" said others.
+“But they will bring us bad luck!” said others.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -379,7 +379,7 @@ And no matter how hard he tried, he could not behave like a human being. His mot
 	Si el niño se hubiera quedado del mismo tamaño, todo habría sido diferente. Pero el niño burro creció y creció hasta que su madre no pudo cargarlo más en su espalda. Y no importaba cuánto lo intentase, el niño burro no lograba comportarse como un niño humano. Su madre se la pasaba cansada y frustrada. A veces ella le ordenaba hacer trabajo de animales.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Now, if the child had stayed that same, small size, everything might have been different. But the donkey child grew and grew until he could no longer fit on his mother's back.
+	Now, if the child had stayed that same, small size, everything might have been different. But the donkey child grew and grew until he could no longer fit on his mother’s back.
 
 And no matter how hard he tried, he could not behave like a human being. His mother was often tired and frustrated. Sometimes she made him do work meant for animals.
 	</h3></div>
@@ -411,7 +411,7 @@ He became so angry that, one day, he kicked his mother to the ground.
 	Burro sentía cada vez más confusión y rabia. Que no podía hacer esto, que no podía hacer aquello. Que él no podía ser esto ni aquello. Un día se puso tan furioso que botó a su madre al suelo de una patada.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Confusion and anger built up inside Donkey. He couldn't do this and he couldn't do that. He couldn't be like this and he couldn't be like that.
+	Confusion and anger built up inside Donkey. He couldn’t do this and he couldn’t do that. He couldn’t be like this and he couldn’t be like that.
 
 He became so angry that, one day, he kicked his mother to the ground.
 	</h3></div>
@@ -472,14 +472,14 @@ Curling himself into a tight ball, he fell into a deep and troubled sleep.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	Cuando dejó de correr, ya era de noche y Burro estaba perdido. "¿Hiaaa?" susurró en la oscuridad. "¿Hiaaa?" le respondió su eco. Estaba solo. Se acurrucó y cayó rendido en un sueño profundo e intranquilo.
+	Cuando dejó de correr, ya era de noche y Burro estaba perdido. “¿Hiaaa?” susurró en la oscuridad. “¿Hiaaa?” le respondió su eco. Estaba solo. Se acurrucó y cayó rendido en un sueño profundo e intranquilo.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	By the time he stopped running, it was night, and Donkey was lost.
 
-"Hee haw?" he whispered to the darkness.
+“Hee haw?” he whispered to the darkness.
 
-"Hee Haw?" it echoed back. He was alone.
+“Hee Haw?” it echoed back. He was alone.
 
 Curling himself into a tight ball, he fell into a deep and troubled sleep.
 	</h3></div>
@@ -509,7 +509,7 @@ Curling himself into a tight ball, he fell into a deep and troubled sleep.
 	Cuando Burro despertó, había un extraño anciano mirándolo. Burro le miró a los ojos y comenzó a sentir una chispa de esperanza.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Donkey woke up to find a strange old man staring down at him. He looked into the old man's eyes and started to feel a twinkle of hope.
+	Donkey woke up to find a strange old man staring down at him. He looked into the old man’s eyes and started to feel a twinkle of hope.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -598,14 +598,14 @@ And when he woke up…
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	Se quedaron dormidos más arriba de las nubes. Burro soñó que su madre estaba enferma y que lo llamaba. Y cuando despertó...
+	Se quedaron dormidos más arriba de las nubes. Burro soñó que su madre estaba enferma y que lo llamaba. Y cuando despertó…
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	High up amongst the clouds they fell asleep.
 
 Donkey dreamed that his mother was sick and calling to him.
 
-And when he woke up...
+And when he woke up…
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -630,10 +630,10 @@ And when he woke up...
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	...las nubes habían desaparecido junto con su amigo, el anciano.
+	…las nubes habían desaparecido junto con su amigo, el anciano.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	... the clouds had disappeared along with his friend, the old man.
+	… the clouds had disappeared along with his friend, the old man.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -752,7 +752,7 @@ Slowly, all around them, other families have started to settle.
 		<h5><a href="/storybooks-mexico/stories/en/level3">Nivel 3</a></h5>
 		<h5>Fuente: <a href="https://africanstorybook.org/reader.php?id=15028" target="_blank">Donkey Child</a> del <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.es"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.es">Licencia Creative Commons Atribución 4.0 Internacional</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.es" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.es" target="_blank">Licencia Creative Commons Atribución 4.0 Internacional</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">

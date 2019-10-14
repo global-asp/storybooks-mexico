@@ -76,7 +76,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-mexico/stories/de" class="button">Regresar a lista de cuentos</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-mexico/stories/de">Regresar a lista de cuentos</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0262/01.jpg"></div>
@@ -84,22 +84,22 @@
 		<h1><span class="def">Magozwe</span>
 			<span class="l1">Magozwe</span>
 			<span class="l2">Magozwe</span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/de/0262/mp3/01.mp3"></audio>
-				<button onclick="switchlang('de,es','es,en,de')" class="btn btn-lg lang-primary" title="Cambiar entre German y español">es</button>
-				<button onclick="switchlang('de,en','es,en,de')" class="btn btn-lg lang-secondary" title="Cambiar entre German y inglés">en</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon" src="/storybooks-mexico/css/pencil.svg" alt="Texto" width="38px"></span> Lesley Koyi</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones" width="38px"></span> Wiehan de Jager</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Traducción"><img class="cover-icon" src="/storybooks-mexico/css/global.svg" alt="Traducción" width="38px"></span> Anna Westpfahl</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lectura en voz alta"><img class="cover-icon" src="/storybooks-mexico/css/megaphone.svg" alt="Lectura en voz alta" width="38px"></span> Jula Eberth</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon" src="/storybooks-mexico/css/language.svg" alt="Lengua" width="38px"></span> <a href="/storybooks-mexico/stories/de">alemán</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon" src="/storybooks-mexico/css/level.svg" alt="Nivel" width="38px"></span> <a href="/storybooks-mexico/stories/de/level5">Nivel 5</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/de/0262/de-0262_magozwe.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/de/0262/mp3/01.mp3"></audio>
+			<button onclick="switchlang('de,es','es,en,de')" class="btn btn-lg lang-primary" title="Cambiar entre German y español">es</button>
+			<button onclick="switchlang('de,en','es,en,de')" class="btn btn-lg lang-secondary" title="Cambiar entre German y inglés">en</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon" src="/storybooks-mexico/css/pencil.svg" alt="Texto"></span> Lesley Koyi</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Traducción"><img class="cover-icon" src="/storybooks-mexico/css/global.svg" alt="Traducción"></span> Anna Westpfahl</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lectura en voz alta"><img class="cover-icon" src="/storybooks-mexico/css/megaphone.svg" alt="Lectura en voz alta"></span> Jula Eberth</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon" src="/storybooks-mexico/css/language.svg" alt="Lengua"></span> <a href="/storybooks-mexico/stories/de">alemán</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon" src="/storybooks-mexico/css/level.svg" alt="Nivel"></span> <a href="/storybooks-mexico/stories/de/level5">Nivel 5</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/de/0262/de-0262_magozwe.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -146,7 +146,7 @@ Among the group of boys was Magozwe. He was the youngest.
 	Cuando los padres de Magozwe murieron, él sólo tenía cinco años de edad. Se fue a vivir con su tío. Pero Magozwe no le importaba a ese hombre. No le daba suficiente comida. Y lo hacía trabajar muy duro.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	When Magozwe's parents died, he was only five years old. He went to live with his uncle. This man did not care about the child. He did not give Magozwe enough food. He made the boy do a lot of hard work.
+	When Magozwe’s parents died, he was only five years old. He went to live with his uncle. This man did not care about the child. He did not give Magozwe enough food. He made the boy do a lot of hard work.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -171,10 +171,10 @@ Among the group of boys was Magozwe. He was the youngest.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	Si Magozwe se quejaba o hacía preguntas, su tío le daba una golpiza. Cuando Magozwe le preguntó si podía ir a la escuela, su tío lo golpeó y le dijo, "eres demasiado estúpido para aprender". Después de tres años de vivir así, Magozwe se escapó de la casa de su tío. Empezó a vivir en la calle.
+	Si Magozwe se quejaba o hacía preguntas, su tío le daba una golpiza. Cuando Magozwe le preguntó si podía ir a la escuela, su tío lo golpeó y le dijo, “eres demasiado estúpido para aprender”. Después de tres años de vivir así, Magozwe se escapó de la casa de su tío. Empezó a vivir en la calle.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	If Magozwe complained or questioned, his uncle beat him. When Magozwe asked if he could go to school, his uncle beat him and said, "You're too stupid to learn anything."
+	If Magozwe complained or questioned, his uncle beat him. When Magozwe asked if he could go to school, his uncle beat him and said, “You’re too stupid to learn anything.”
 
 After three years of this treatment Magozwe ran away from his uncle. He started living on the street.
 	</h3></div>
@@ -293,14 +293,14 @@ Magozwe would daydream of being a pilot. Sometimes, he imagined that he was the 
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	Hacía frío y Magozwe estaba mendigando en la calle. Un hombre se le acercó. "Hola, soy Thomas. Trabajo cerca de aquí, en un lugar donde podemos darte comida," dijo el hombre. Apuntaba hacia una casa amarilla con techo azul. "Ojalá vayas pronto a buscar comida" le dijo. Magozwe miró al hombre, y después miró la casa. "Quizá", dijo, y se fue.
+	Hacía frío y Magozwe estaba mendigando en la calle. Un hombre se le acercó. “Hola, soy Thomas. Trabajo cerca de aquí, en un lugar donde podemos darte comida,” dijo el hombre. Apuntaba hacia una casa amarilla con techo azul. “Ojalá vayas pronto a buscar comida” le dijo. Magozwe miró al hombre, y después miró la casa. “Quizá”, dijo, y se fue.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	It was cold and Magozwe was standing on the road begging. A man walked up to him. "Hello, I'm Thomas. I work near here, at a place where you can get something to eat," said the man.
+	It was cold and Magozwe was standing on the road begging. A man walked up to him. “Hello, I’m Thomas. I work near here, at a place where you can get something to eat,” said the man.
 
-He pointed to a yellow house with a blue roof. "I hope you will go there to get some food?" he asked.
+He pointed to a yellow house with a blue roof. “I hope you will go there to get some food?” he asked.
 
-Magozwe looked at the man, and then at the house. "Maybe," he said, and walked away.
+Magozwe looked at the man, and then at the house. “Maybe,” he said, and walked away.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -330,7 +330,7 @@ Magozwe looked at the man, and then at the house. "Maybe," he said, and walked a
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
 	Over the months that followed, the homeless boys got used to seeing Thomas around. He liked to talk to people, especially people living on the streets.
 
-Thomas listened to the stories of people's lives. He was serious and patient, never rude or disrespectful. Some of the boys started going to the yellow and blue house to get food at midday.
+Thomas listened to the stories of people’s lives. He was serious and patient, never rude or disrespectful. Some of the boys started going to the yellow and blue house to get food at midday.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -355,18 +355,18 @@ Thomas listened to the stories of people's lives. He was serious and patient, ne
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	Magozwe estaba sentado en la calle mirando su libro cuando Thomas vino y se sentó a su lado. "¿De qué trata la historia?" preguntó Thomas. "Trata sobre un chico que se convierte en piloto," respondió Magozwe. "¿Cómo se llama el niño?" preguntó Thomas. "No sé porque no sé leer," dijo Magozwe en voz baja.
+	Magozwe estaba sentado en la calle mirando su libro cuando Thomas vino y se sentó a su lado. “¿De qué trata la historia?” preguntó Thomas. “Trata sobre un chico que se convierte en piloto,” respondió Magozwe. “¿Cómo se llama el niño?” preguntó Thomas. “No sé porque no sé leer,” dijo Magozwe en voz baja.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
 	Magozwe was sitting on the pavement looking at his picture book when Thomas sat down next to him.
 
-"What is the story about?" asked Thomas.
+“What is the story about?” asked Thomas.
 
-"It's about a boy who becomes a pilot," replied Magozwe.
+“It’s about a boy who becomes a pilot,” replied Magozwe.
 
-"What's the boy's name?" asked Thomas.
+“What’s the boy’s name?” asked Thomas.
 
-"I don't know, I can't read," said Magozwe quietly.
+“I don’t know, I can’t read,” said Magozwe quietly.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -396,7 +396,7 @@ Thomas listened to the stories of people's lives. He was serious and patient, ne
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
 	When they met, Magozwe began to tell his own story to Thomas. It was the story of his uncle and why he ran away.
 
-Thomas didn't talk a lot, and he didn't tell Magozwe what to do, but he always listened carefully.
+Thomas didn’t talk a lot, and he didn’t tell Magozwe what to do, but he always listened carefully.
 
 Sometimes they would talk while they ate at the house with the blue roof.
 	</h3></div>
@@ -423,12 +423,12 @@ Sometimes they would talk while they ate at the house with the blue roof.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	Cuando Magozwe cumplió alrededor de diez años, Thomas le regaló un nuevo libro de cuentos. Era la historia de un niño de una aldea que creció y se convirtió en un famoso jugador de fútbol. Thomas le leyó esa historia a Magozwe en muchas ocasiones, hasta que un día le dijo, "Creo que ya es tiempo que vayas a la escuela y aprendas a leer. ¿Qué te parece?" Thomas le explicó que conocía un lugar donde los niños podían vivir e ir a la escuela.
+	Cuando Magozwe cumplió alrededor de diez años, Thomas le regaló un nuevo libro de cuentos. Era la historia de un niño de una aldea que creció y se convirtió en un famoso jugador de fútbol. Thomas le leyó esa historia a Magozwe en muchas ocasiones, hasta que un día le dijo, “Creo que ya es tiempo que vayas a la escuela y aprendas a leer. ¿Qué te parece?” Thomas le explicó que conocía un lugar donde los niños podían vivir e ir a la escuela.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Around Magozwe's tenth birthday, Thomas gave him a new storybook. It was a story about a village boy who grew up to be a famous soccer player.
+	Around Magozwe’s tenth birthday, Thomas gave him a new storybook. It was a story about a village boy who grew up to be a famous soccer player.
 
-Thomas read that story to Magozwe many times, until one day he said, "I think it's time you went to school and learned to read. What do you think?" Thomas explained that he knew of a place where children could stay, and go to school.
+Thomas read that story to Magozwe many times, until one day he said, “I think it’s time you went to school and learned to read. What do you think?” Thomas explained that he knew of a place where children could stay, and go to school.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -453,12 +453,12 @@ Thomas read that story to Magozwe many times, until one day he said, "I think it
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	Magozwe pensó en este nuevo lugar y en ir a la escuela. Pero, ¿y si su tío tenía razón y era demasiado estúpido para aprender? ¿Y si volvían a darle golpizas en este nuevo lugar? Magozwe sintió miedo. "Quizá sea mejor seguir viviendo en la calle," pensó.
+	Magozwe pensó en este nuevo lugar y en ir a la escuela. Pero, ¿y si su tío tenía razón y era demasiado estúpido para aprender? ¿Y si volvían a darle golpizas en este nuevo lugar? Magozwe sintió miedo. “Quizá sea mejor seguir viviendo en la calle,” pensó.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
 	Magozwe thought about this new place, and about going to school. What if his uncle was right and he was too stupid to learn anything?
 
-What if they beat him at this new place? He was afraid. "Maybe it is better to stay living on the street," he thought.
+What if they beat him at this new place? He was afraid. “Maybe it is better to stay living on the street,” he thought.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -571,18 +571,18 @@ But he thought about the pilot and the soccer player in the storybooks. Like the
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	Magozwe estaba sentado en el patio de la casa del techo verde, leyendo un libro de cuentos de su escuela. Thomas se le acercó y se sentó junto a él. "¿De qué trata la historia?" preguntó Thomas. "Trata sobre un chico que se convierte en profesor," respondió Magozwe. "¿Cómo se llama el chico?" preguntó Thomas. "Su nombre es Magozwe," dijo Magozwe sonriendo.
+	Magozwe estaba sentado en el patio de la casa del techo verde, leyendo un libro de cuentos de su escuela. Thomas se le acercó y se sentó junto a él. “¿De qué trata la historia?” preguntó Thomas. “Trata sobre un chico que se convierte en profesor,” respondió Magozwe. “¿Cómo se llama el chico?” preguntó Thomas. “Su nombre es Magozwe,” dijo Magozwe sonriendo.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
 	Magozwe was sitting in the yard at the house with the green roof, reading a storybook from school. Thomas came up and sat next to him.
 
-"What is the story about?" asked Thomas.
+“What is the story about?” asked Thomas.
 
-"It's about a boy who becomes a teacher," replied Magozwe.
+“It’s about a boy who becomes a teacher,” replied Magozwe.
 
-"What's the boy's name?" asked Thomas.
+“What’s the boy’s name?” asked Thomas.
 
-"His name is Magozwe," said Magozwe with a smile.
+“His name is Magozwe,” said Magozwe with a smile.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -610,7 +610,7 @@ But he thought about the pilot and the soccer player in the storybooks. Like the
 		<h5><a href="/storybooks-mexico/stories/de/level5">Nivel 5</a></h5>
 		<h5>Fuente: <a href="https://africanstorybook.org/reader.php?id=13213" target="_blank">Magozwe</a> del <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.es"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.es">Licencia Creative Commons Atribución 4.0 Internacional</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.es" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.es" target="_blank">Licencia Creative Commons Atribución 4.0 Internacional</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">

@@ -76,7 +76,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-mexico/stories/ar" class="button">Regresar a lista de cuentos</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-mexico/stories/ar">Regresar a lista de cuentos</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0006/01.jpg"></div>
@@ -84,22 +84,22 @@
 		<h1 dir="rtl"><span class="def">أنانسي و الحكمة</span>
 			<span dir="ltr" class="l1">Anansi y la sabiduría</span>
 			<span dir="ltr" class="l2">Anansi and Wisdom</span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/ar/0006/mp3/01.mp3"></audio>
-				<button onclick="switchlang('ar,es','es,en,ar')" class="btn btn-lg lang-primary" title="Cambiar entre Arabic y español">es</button>
-				<button onclick="switchlang('ar,en','es,en,ar')" class="btn btn-lg lang-secondary" title="Cambiar entre Arabic y inglés">en</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon" src="/storybooks-mexico/css/pencil.svg" alt="Texto" width="38px"></span> Ghanaian folktale</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones" width="38px"></span> Wiehan de Jager</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Traducción"><img class="cover-icon" src="/storybooks-mexico/css/global.svg" alt="Traducción" width="38px"></span> Abrar Wafa</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lectura en voz alta"><img class="cover-icon" src="/storybooks-mexico/css/megaphone.svg" alt="Lectura en voz alta" width="38px"></span> Mashael Muhanna</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon" src="/storybooks-mexico/css/language.svg" alt="Lengua" width="38px"></span> <a href="/storybooks-mexico/stories/ar">árabe</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon" src="/storybooks-mexico/css/level.svg" alt="Nivel" width="38px"></span> <a href="/storybooks-mexico/stories/ar/level3">Nivel 3</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/ar/0006/ar-0006_anansi.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/ar/0006/mp3/01.mp3"></audio>
+			<button onclick="switchlang('ar,es','es,en,ar')" class="btn btn-lg lang-primary" title="Cambiar entre Arabic y español">es</button>
+			<button onclick="switchlang('ar,en','es,en,ar')" class="btn btn-lg lang-secondary" title="Cambiar entre Arabic y inglés">en</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon" src="/storybooks-mexico/css/pencil.svg" alt="Texto"></span> Ghanaian folktale</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Traducción"><img class="cover-icon" src="/storybooks-mexico/css/global.svg" alt="Traducción"></span> Abrar Wafa</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lectura en voz alta"><img class="cover-icon" src="/storybooks-mexico/css/megaphone.svg" alt="Lectura en voz alta"></span> Mashael Muhanna</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon" src="/storybooks-mexico/css/language.svg" alt="Lengua"></span> <a href="/storybooks-mexico/stories/ar">árabe</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon" src="/storybooks-mexico/css/level.svg" alt="Nivel"></span> <a href="/storybooks-mexico/stories/ar/level3">Nivel 3</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/ar/0006/ar-0006_anansi.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -114,8 +114,8 @@
 	Hace mucho, mucho tiempo la gente no sabía nada. No sabían cómo cultivar, o cómo tejer tela, o cómo hacer herramientas de hierro. El dios Nyame arriba en el cielo tenía toda la sabiduría del mundo. La mantenía guardada en una vasija de barro.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Long long ago people didn't
-know anything. They didn't
+	Long long ago people didn’t
+know anything. They didn’t
 know how to plant crops, or
 how to weave cloth, or how to
 make iron tools.
@@ -182,10 +182,10 @@ new. It was so exciting!
 	El codicioso Anansi pensó, “voy a guardar la vasija en la copa de un árbol muy alto. ¡Y será sólo mía!” Hiló un hilo largo, envolvió con él la vasija de barro, y lo ató a su cintura. Empezó a trepar el árbol. Pero se le hacía muy difícil trepar el árbol con la vasija constantemente pegándole en las rodillas.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Greedy Anansi thought, "I'll
+	Greedy Anansi thought, “I’ll
 keep the pot safe at the top of a
 tall tree. Then I can have it all
-to myself!"
+to myself!”
 He spun a long thread, wound it
 round the clay pot, and tied it to
 his stomach.
@@ -220,12 +220,12 @@ knees all the time.
 	Mientras tanto, el hijo pequeño de Anansi lo miraba desde abajo y le dijo, “¿No sería más fácil trepar si te ataras la vasija a tu espalda?” Anansi ató la vasija llena de sabiduría a su espalda y, efectivamente, fue mucho más fácil.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	All the time Anansi's young son
+	All the time Anansi’s young son
 had been standing at the
 bottom of the tree watching. He
-said, "Wouldn't it be easier to
+said, “Wouldn’t it be easier to
 climb if you tied the pot to your
-back instead?"
+back instead?”
 Anansi tried tying the clay pot
 full of wisdom to his back, and it
 really was a lot easier.
@@ -259,10 +259,10 @@ really was a lot easier.
 	In no time he reached the top of
 the tree.
 But then he stopped and
-thought, "I'm supposed to be
+thought, “I’m supposed to be
 the one with all the wisdom,
 and here my son was cleverer
-than me!"
+than me!”
 Anansi was so angry about this
 that he threw the clay pot down
 out of the tree.
@@ -329,7 +329,7 @@ how to do.
 		<h5><a href="/storybooks-mexico/stories/ar/level3">Nivel 3</a></h5>
 		<h5>Fuente: <a href="https://africanstorybook.org/reader.php?id=1938" target="_blank">Anansi and Wisdom</a> del <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es">Licencia Creative Commons Atribución 3.0 Internacional</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es" target="_blank">Licencia Creative Commons Atribución 3.0 Internacional</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">

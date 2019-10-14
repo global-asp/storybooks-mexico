@@ -76,7 +76,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-mexico/stories/pmq" class="button">Regresar a lista de cuentos</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-mexico/stories/pmq">Regresar a lista de cuentos</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/01.jpg"></div>
@@ -84,21 +84,21 @@
 		<h1><span class="def">Luke buꞌ ntjuy njèu Vusi dasep</span>
 			<span class="l1">Lo que la hermana de Vusi dijo</span>
 			<span class="l2">What Vusi's sister said</span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/cpm/audio/pmq/0291/mp3/01.mp3"></audio>
-				<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre Northern Pame y español">es</button>
-				<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre Northern Pame y inglés">en</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon" src="/storybooks-mexico/css/pencil.svg" alt="Texto" width="38px"></span> Nina Orange</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones" width="38px"></span> Wiehan de Jager</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Traducción"><img class="cover-icon" src="/storybooks-mexico/css/global.svg" alt="Traducción" width="38px"></span> Constantino Gómez González</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon" src="/storybooks-mexico/css/language.svg" alt="Lengua" width="38px"></span> <a href="/storybooks-mexico/stories/pmq">xiꞌiùy</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon" src="/storybooks-mexico/css/level.svg" alt="Nivel" width="38px"></span> <a href="/storybooks-mexico/stories/pmq/level4">Nivel 4</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/cpm/audio/pmq/0291/pmq-0291_vusi.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/cpm/audio/pmq/0291/mp3/01.mp3"></audio>
+			<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre Northern Pame y español">es</button>
+			<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre Northern Pame y inglés">en</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon" src="/storybooks-mexico/css/pencil.svg" alt="Texto"></span> Nina Orange</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Traducción"><img class="cover-icon" src="/storybooks-mexico/css/global.svg" alt="Traducción"></span> Constantino Gómez González</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon" src="/storybooks-mexico/css/language.svg" alt="Lengua"></span> <a href="/storybooks-mexico/stories/pmq">xiꞌiùy</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon" src="/storybooks-mexico/css/level.svg" alt="Nivel"></span> <a href="/storybooks-mexico/stories/pmq/level4">Nivel 4</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/cpm/audio/pmq/0291/pmq-0291_vusi.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -111,14 +111,14 @@ Ndudat mjang ñkꞌĩ̀ nda pastel mjàu ntɨꞌ pa biuꞌ ntjɨ̃̀jɨ̃ꞌt d
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Temprano en la mañana, la abuelita de Vusi le dijo, "Vusi, por favor, lleva este huevo a tus padres. Ellos quieren hacer un pastel muy grande para la boda de tu hermana."
+	Temprano en la mañana, la abuelita de Vusi le dijo, “Vusi, por favor, lleva este huevo a tus padres. Ellos quieren hacer un pastel muy grande para la boda de tu hermana.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Early one morning Vusi's granny
-called him, "Vusi, please take this
+	Early one morning Vusi’s granny
+called him, “Vusi, please take this
 egg to your parents. They want to
-make a large cake for your sister's
-wedding".
+make a large cake for your sister’s
+wedding”.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -176,14 +176,14 @@ it at a tree. The egg broke.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	"¡¿Qué acabas de hacer?!" Vusi le gritó. "Ese huevo era para hacer el pastel de boda de mi hermana." ¿Qué dirá mi hermana cuando sepa que no habrá pastel de boda?"
+	“¡¿Qué acabas de hacer?!” Vusi le gritó. “Ese huevo era para hacer el pastel de boda de mi hermana.” ¿Qué dirá mi hermana cuando sepa que no habrá pastel de boda?”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	"What have you done?" cried Vusi.
-"That egg was for a cake. The cake
-was for my sister's wedding. What
+	“What have you done?” cried Vusi.
+“That egg was for a cake. The cake
+was for my sister’s wedding. What
 will my sister say if there is no
-wedding cake?"
+wedding cake?”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -209,14 +209,14 @@ wedding cake?"
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Los chicos se disculparon por lo ocurrido. "No te podemos ayudar con la pastel, pero este palo para caminar es un regalo para tu hermana," uno de los chicos dijo. Luego, Vusi siguió caminando.
+	Los chicos se disculparon por lo ocurrido. “No te podemos ayudar con la pastel, pero este palo para caminar es un regalo para tu hermana,” uno de los chicos dijo. Luego, Vusi siguió caminando.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	The boys were sorry for teasing
 Vusi.
-"We can't help with the cake, but
+“We can’t help with the cake, but
 here is a walking stick for your
-sister," said one.
+sister,” said one.
 Vusi continued on his journey.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
@@ -242,12 +242,12 @@ Vusi continued on his journey.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Mientras caminaba, se encontró con dos hombres que estaban construyendo una casa. "¿Nos dejarías usar ese fuerte palo?" uno de los hombres preguntó. Pero el palo no era lo suficientemente fuerte para trabajos de construcción, así que se quebró.
+	Mientras caminaba, se encontró con dos hombres que estaban construyendo una casa. “¿Nos dejarías usar ese fuerte palo?” uno de los hombres preguntó. Pero el palo no era lo suficientemente fuerte para trabajos de construcción, así que se quebró.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Along the way he met two men
-building a house. "Can we use that
-strong stick?" asked one.
+building a house. “Can we use that
+strong stick?” asked one.
 But the stick was not strong enough
 for building, and it broke.
 	</h3></div>
@@ -275,17 +275,17 @@ Chiñi, ni pastel, ni regalo namẽ pa biuꞌ ntjɨ̃̀jɨ̃ꞌt de u. ¡¿Nɛp 
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	"¿Qué acabas de hacer?" Vusi gritó. "Ese palo era un regalo para mi hermana. Los recolectores de fruta me lo dieron porque rompieron el huevo para el pastel de boda de mi hermana. Ahora, ni huevo, ni pastel, ni regalo habrá para su boda. ¡¿Qué dirá mi hermana?!"
+	“¿Qué acabas de hacer?” Vusi gritó. “Ese palo era un regalo para mi hermana. Los recolectores de fruta me lo dieron porque rompieron el huevo para el pastel de boda de mi hermana. Ahora, ni huevo, ni pastel, ni regalo habrá para su boda. ¡¿Qué dirá mi hermana?!”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	"What have you done?" cried Vusi.
-"That stick was a gift for my sister.
+	“What have you done?” cried Vusi.
+“That stick was a gift for my sister.
 The fruit pickers gave me the stick
 because they broke the egg for the
-cake. The cake was for my sister's
+cake. The cake was for my sister’s
 wedding. Now there is no egg, no
 cake, and no gift. What will my
-sister say?"
+sister say?”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -310,13 +310,13 @@ sister say?"
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Los constructores se disculparon por haber roto el palo. "No te podemos ayudar con la pastel, pero aquí tienes un poco de paja para tu hermana," uno de ellos dijo. Y así, Vusi continuó caminando.
+	Los constructores se disculparon por haber roto el palo. “No te podemos ayudar con la pastel, pero aquí tienes un poco de paja para tu hermana,” uno de ellos dijo. Y así, Vusi continuó caminando.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	The builders were sorry for breaking
 the stick.
-"We can't help with the cake, but
-here is some thatch for your sister,"
+“We can’t help with the cake, but
+here is some thatch for your sister,”
 said one.
 And so Vusi continued on his
 journey.
@@ -345,12 +345,12 @@ Peru biuꞌ xchjuɛ̀ mjàu mꞌã̀u ke biuꞌ pagas danaung ꞌmɛ̀jɛ.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Ahora Vusi se encontró con un granjero y una vaca. "¡Qué deliciosa paja! ¿Puedo comer un poquito?" la vaca preguntó. Pero la paja estaba tan rica que la vaca se la comió toda.
+	Ahora Vusi se encontró con un granjero y una vaca. “¡Qué deliciosa paja! ¿Puedo comer un poquito?” la vaca preguntó. Pero la paja estaba tan rica que la vaca se la comió toda.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Along the way, Vusi met a farmer
-and a cow. "What delicious thatch,
-can I have a nibble?" asked the cow.
+and a cow. “What delicious thatch,
+can I have a nibble?” asked the cow.
 But the thatch was so tasty that the
 cow ate it all!
 	</h3></div>
@@ -379,20 +379,20 @@ Chiñi, ni ñkiutalung, ni pastel, ni regalo namẽ pa biuꞌ ntjɨ̃̀jɨ̃ꞌt
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	"¿Qué acabas de hacer?" Vusi gritó. "Esa paja era un regalo para mi hermana. Los constructores me la dieron porque rompieron el palo de los recolectores de fruta. Los recolectores de fruta me regalaron el palo porque quebraron el huevo para el pastel de boda de mi hermana. Ahora, ni huevo, ni pastel, ni regalo habrá para su boda. ¡¿Qué dirá mi hermana?!"
+	“¿Qué acabas de hacer?” Vusi gritó. “Esa paja era un regalo para mi hermana. Los constructores me la dieron porque rompieron el palo de los recolectores de fruta. Los recolectores de fruta me regalaron el palo porque quebraron el huevo para el pastel de boda de mi hermana. Ahora, ni huevo, ni pastel, ni regalo habrá para su boda. ¡¿Qué dirá mi hermana?!”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	"What have you done?" cried Vusi.
-"That thatch was a gift for my
+	“What have you done?” cried Vusi.
+“That thatch was a gift for my
 sister. The builders gave me the
 thatch because they broke the stick
 from the fruit pickers. The fruit
 pickers gave me the stick because
-they broke the egg for my sister's
-cake. The cake was for my sister's
+they broke the egg for my sister’s
+cake. The cake was for my sister’s
 wedding. Now there is no egg, no
 cake, and no gift. What will my
-sister say?"
+sister say?”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -455,7 +455,7 @@ Ruꞌdat mapaꞌadat ya meju sɨjɨñat.
 	But the cow ran back to the farmer
 at supper time.
 And Vusi got lost on his journey.
-He arrived very late for his sister's
+He arrived very late for his sister’s
 wedding. The guests were already
 eating.
 	</h3></div>
@@ -484,11 +484,11 @@ Chiñi, ni ñkiutalung, ni pastel, ni regalo namẽ pa biuꞌ ntjɨ̃̀jɨ̃ꞌt
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	"¿Qué puedo hacer ahora?" Vusi dijo. "La vaca que se arrancó corriendo era un regalo para sustituir la paja que los constructores me habían regalado. Los constructores me dieron la paja porque rompieron el palo de los recolectores de fruta. Los recolectores de fruta me regalaron el palo porque quebraron el huevo para el pastel de boda de mi hermana. Ahora, ni huevo, ni pastel, ni regalo habrá para la boda."
+	“¿Qué puedo hacer ahora?” Vusi dijo. “La vaca que se arrancó corriendo era un regalo para sustituir la paja que los constructores me habían regalado. Los constructores me dieron la paja porque rompieron el palo de los recolectores de fruta. Los recolectores de fruta me regalaron el palo porque quebraron el huevo para el pastel de boda de mi hermana. Ahora, ni huevo, ni pastel, ni regalo habrá para la boda.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	"What shall I do?" cried Vusi.
-"The cow that ran away was a gift,
+	“What shall I do?” cried Vusi.
+“The cow that ran away was a gift,
 in return for the thatch the builders
 gave me. The builders gave me the
 thatch because they broke the stick
@@ -497,7 +497,7 @@ pickers gave me the stick because
 they broke the egg for the cake.
 The cake was for the wedding. Now
 there is no egg, no cake, and no
-gift."
+gift.”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -524,18 +524,18 @@ Takã̀jãn ꞌmɛ̀jɛnan nìskꞌan taꞌuànan y kiau lameju mjàu nisk ta�
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	La hermana de Vusi se quedó pensativa por un momento y luego dijo: "Vusi, hermano mío, no me interesan los regalos. ¡Ni siquiera me interesa el pastel de boda! Estamos todos reunidos y felices y yo estoy muy feliz también. ¡Ponte tu ropa elegante y celebremos!" Y así pues, eso fue lo que Vusi hizo.
+	La hermana de Vusi se quedó pensativa por un momento y luego dijo: “Vusi, hermano mío, no me interesan los regalos. ¡Ni siquiera me interesa el pastel de boda! Estamos todos reunidos y felices y yo estoy muy feliz también. ¡Ponte tu ropa elegante y celebremos!” Y así pues, eso fue lo que Vusi hizo.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Vusi's sister thought for a while,
+	Vusi’s sister thought for a while,
 then she said,
-"Vusi my brother, I don't really care
-about gifts. I don't even care about
+“Vusi my brother, I don’t really care
+about gifts. I don’t even care about
 the cake! We are all here together, I
 am happy. Now put on your smart
-clothes and let's celebrate this
-day!"
-And so that's what Vusi did.
+clothes and let’s celebrate this
+day!”
+And so that’s what Vusi did.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -562,7 +562,7 @@ And so that's what Vusi did.
 		<h5><a href="/storybooks-mexico/stories/pmq/level4">Nivel 4</a></h5>
 		<h5>Fuente: <a href="https://africanstorybook.org/reader.php?id=6895" target="_blank">What Vusi's sister said</a> del <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es">Licencia Creative Commons Atribución 3.0 Internacional</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es" target="_blank">Licencia Creative Commons Atribución 3.0 Internacional</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">

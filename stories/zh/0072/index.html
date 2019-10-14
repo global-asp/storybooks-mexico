@@ -76,7 +76,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-mexico/stories/zh" class="button">Regresar a lista de cuentos</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-mexico/stories/zh">Regresar a lista de cuentos</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0072/01.jpg"></div>
@@ -84,22 +84,22 @@
 		<h1><span class="def">指蜜鸟的复仇</span>
 			<span class="l1">La venganza del Pájaro Miel</span>
 			<span class="l2">The Honeyguide's revenge</span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/zh/0072/mp3/01.mp3"></audio>
-				<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre Chinese (Mandarin) y español">es</button>
-				<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre Chinese (Mandarin) y inglés">en</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon" src="/storybooks-mexico/css/pencil.svg" alt="Texto" width="38px"></span> Zulu folktale</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones" width="38px"></span> Wiehan de Jager</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Traducción"><img class="cover-icon" src="/storybooks-mexico/css/global.svg" alt="Traducción" width="38px"></span> Vicky Liu</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lectura en voz alta"><img class="cover-icon" src="/storybooks-mexico/css/megaphone.svg" alt="Lectura en voz alta" width="38px"></span> Zhuo Sun</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon" src="/storybooks-mexico/css/language.svg" alt="Lengua" width="38px"></span> <a href="/storybooks-mexico/stories/zh">chino</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon" src="/storybooks-mexico/css/level.svg" alt="Nivel" width="38px"></span> <a href="/storybooks-mexico/stories/zh/level4">Nivel 4</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/zh/0072/zh-0072_honeyguide.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/zh/0072/mp3/01.mp3"></audio>
+			<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre Chinese (Mandarin) y español">es</button>
+			<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre Chinese (Mandarin) y inglés">en</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon" src="/storybooks-mexico/css/pencil.svg" alt="Texto"></span> Zulu folktale</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Traducción"><img class="cover-icon" src="/storybooks-mexico/css/global.svg" alt="Traducción"></span> Vicky Liu</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lectura en voz alta"><img class="cover-icon" src="/storybooks-mexico/css/megaphone.svg" alt="Lectura en voz alta"></span> Zhuo Sun</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon" src="/storybooks-mexico/css/language.svg" alt="Lengua"></span> <a href="/storybooks-mexico/stories/zh">chino</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon" src="/storybooks-mexico/css/level.svg" alt="Nivel"></span> <a href="/storybooks-mexico/stories/zh/level4">Nivel 4</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/zh/0072/zh-0072_honeyguide.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -111,18 +111,18 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Esta es la historia de Ngede, el Pájaro Miel, y un jovencito avaro llamado Gingile. Un día, mientras Gingile estaba cazando, escuchó el canto de Ngede. A Gingile comenzó a hacérsele agua la boca al pensar en la miel. Se detuvo para escuchar con atención hasta encontrar al pájaro miel que estaba en las ramas del árbol justo encima de su cabeza. "Chitik-chitik-chitik," cantó el pequeño pájaro mientras volaba de un árbol al árbol. "Chitik-chitik-chitik," cantaba el Pájaro Miel, haciendo pausas de vez en cuando para asegurarse de que Gingile lo siguiera.
+	Esta es la historia de Ngede, el Pájaro Miel, y un jovencito avaro llamado Gingile. Un día, mientras Gingile estaba cazando, escuchó el canto de Ngede. A Gingile comenzó a hacérsele agua la boca al pensar en la miel. Se detuvo para escuchar con atención hasta encontrar al pájaro miel que estaba en las ramas del árbol justo encima de su cabeza. “Chitik-chitik-chitik,” cantó el pequeño pájaro mientras volaba de un árbol al árbol. “Chitik-chitik-chitik,” cantaba el Pájaro Miel, haciendo pausas de vez en cuando para asegurarse de que Gingile lo siguiera.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	This is the story of Ngede, the Honeyguide, and a greedy young
 man named Gingile.
 One day while Gingile was out hunting he heard the call of Ngede.
-Gingile's mouth began to water at the thought of honey. He
+Gingile’s mouth began to water at the thought of honey. He
 stopped and listened carefully, searching until he saw the bird in
 the branches above his head.
-"Chitik-chitik-chitik," the little bird rattled, as he flew to the next
+“Chitik-chitik-chitik,” the little bird rattled, as he flew to the next
 tree, and the next.
-"Chitik, chitik, chitik," he called, stopping from time to time to be
+“Chitik, chitik, chitik,” he called, stopping from time to time to be
 sure that Gingile followed.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
@@ -148,7 +148,7 @@ sure that Gingile followed.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Después de media hora, llegaron a una higuera gigante. Ngede brincaba locamente entre las ramas. Luego, se posó en una rama e inclinó su cabeza hacia Gingile diciéndole, "¡Aquí está! ¡Ven ahora! ¿Por qué tardas tanto?" Gingile no podía ver ninguna abeja desde abajo del árbol, pero decidió confiar en Ngede.
+	Después de media hora, llegaron a una higuera gigante. Ngede brincaba locamente entre las ramas. Luego, se posó en una rama e inclinó su cabeza hacia Gingile diciéndole, “¡Aquí está! ¡Ven ahora! ¿Por qué tardas tanto?” Gingile no podía ver ninguna abeja desde abajo del árbol, pero decidió confiar en Ngede.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	After half an hour, they reached a
@@ -156,10 +156,10 @@ huge wild fig tree.
 Ngede hopped about madly among
 the branches. He then settled on
 one branch and cocked his head at
-Gingile as if to say, "Here it is!
+Gingile as if to say, “Here it is!
 Come now! What is taking you so
-long?"
-Gingile couldn't see any bees from
+long?”
+Gingile couldn’t see any bees from
 under the tree, but he trusted
 Ngede.
 	</h3></div>
@@ -237,7 +237,7 @@ pushed the smoking end of the stick
 into the hollow.
 The bees came rushing out, angry
 and mean. They flew away because
-they didn't like the smoke – but not
+they didn’t like the smoke – but not
 before they had given Gingile some
 painful stings!
 	</h3></div>
@@ -337,16 +337,16 @@ boy and waited for his reward.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Pero Gingile apagó la fogata, tomó su lanza y empezó a caminar hacia su casa, ignorando completamente al Pájaro Miel. Ngede gritaba muy furiosamente, "¡Piii-trrr! ¡Piii-trrr!" Gingile se detuvo, miró al Pájaro Miel y comenzó a reírse fuerte. "¡Amiguito! ¿Quieres miel, ah? ¡Ja! Yo hice todo el trabajo para conseguirla y, además, quedé todo picado. ¿Por qué debería compartir esta dulce y rica miel contigo?" y se alejó. ¡Ngede estaba furioso! ¡Esta no era forma de agradecerle! Pero, se vengaría.
+	Pero Gingile apagó la fogata, tomó su lanza y empezó a caminar hacia su casa, ignorando completamente al Pájaro Miel. Ngede gritaba muy furiosamente, “¡Piii-trrr! ¡Piii-trrr!” Gingile se detuvo, miró al Pájaro Miel y comenzó a reírse fuerte. “¡Amiguito! ¿Quieres miel, ah? ¡Ja! Yo hice todo el trabajo para conseguirla y, además, quedé todo picado. ¿Por qué debería compartir esta dulce y rica miel contigo?” y se alejó. ¡Ngede estaba furioso! ¡Esta no era forma de agradecerle! Pero, se vengaría.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	But, Gingile put out the fire, picked up his spear and started
 walking home, ignoring the bird.
-Ngede called out angrily, "VIC-torr! VIC-torrr!"
-Gingile stopped, stared at the little bird and laughed aloud. "You
+Ngede called out angrily, “VIC-torr! VIC-torrr!”
+Gingile stopped, stared at the little bird and laughed aloud. “You
 want some honey, do you, my friend? Ha! But I did all the work,
 and got all the stings. Why should I share any of this lovely honey
-with you?" Then he walked off.
+with you?” Then he walked off.
 Ngede was furious! This was no way to treat him! But he would get
 his revenge.
 	</h3></div>
@@ -373,14 +373,14 @@ his revenge.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Un día, después de varias semanas, Gingile escuchó el canto de Ngede nuevamente. Él recordó lo deliciosa que era esa miel y con entusiasmo siguió el canto del Pájaro Miel. Después de un largo viaje por el borde del bosque, Ngede se detuvo a descansar bajo una acacia de copa plana. "Ah," pensó Gingile. "El panal de abejas debe estar en este árbol." Entonces, rápidamente hizo su fogata y comenzó a trepar el árbol con la rama quemada entre sus dientes. Ngede se sentó y miró todo atentamente.
+	Un día, después de varias semanas, Gingile escuchó el canto de Ngede nuevamente. Él recordó lo deliciosa que era esa miel y con entusiasmo siguió el canto del Pájaro Miel. Después de un largo viaje por el borde del bosque, Ngede se detuvo a descansar bajo una acacia de copa plana. “Ah,” pensó Gingile. “El panal de abejas debe estar en este árbol.” Entonces, rápidamente hizo su fogata y comenzó a trepar el árbol con la rama quemada entre sus dientes. Ngede se sentó y miró todo atentamente.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	One day several weeks later Gingile again heard the honey call of Ngede. He remembered the delicious honey, and eagerly
 followed the bird once again.
 After leading Gingile along the edge of the forest, Ngede stopped
-to rest in a great umbrella thorn. "Ahh," thought Gingile.
-"The hive must be in this tree." He quickly made his small fire and
+to rest in a great umbrella thorn. “Ahh,” thought Gingile.
+“The hive must be in this tree.” He quickly made his small fire and
 began to climb, the smoking branch in his teeth. Ngede sat and
 watched.
 	</h3></div>
@@ -407,11 +407,11 @@ watched.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Mientras trepaba, Gingile se preguntaba por qué no escuchaba el zumbido de las abejas. "Quizás, el panal está bien escondido en el árbol," él pensó. Al llegar a la siguiente rama, se encontró con un leopardo. El leopardo estaba muy enojado porque Gingile lo despertó de su siesta. Lo miró de manera amenazadora y abrió su boca para mostrarle sus dientes grandes y filosos.
+	Mientras trepaba, Gingile se preguntaba por qué no escuchaba el zumbido de las abejas. “Quizás, el panal está bien escondido en el árbol,” él pensó. Al llegar a la siguiente rama, se encontró con un leopardo. El leopardo estaba muy enojado porque Gingile lo despertó de su siesta. Lo miró de manera amenazadora y abrió su boca para mostrarle sus dientes grandes y filosos.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Gingile climbed, wondering why he didn't hear the usual buzzing.
-"Perhaps the hive is deep in the tree," he thought to himself.
+	Gingile climbed, wondering why he didn’t hear the usual buzzing.
+“Perhaps the hive is deep in the tree,” he thought to himself.
 He pulled himself up another branch. But instead of the hive, he
 was staring into the face of a leopard!
 Leopard was very angry at having her sleep so rudely interrupted.
@@ -511,7 +511,7 @@ of the comb for Honeyguide!
 		<h5><a href="/storybooks-mexico/stories/zh/level4">Nivel 4</a></h5>
 		<h5>Fuente: <a href="https://africanstorybook.org/reader.php?id=2099" target="_blank">The Honeyguide's revenge</a> del <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es">Licencia Creative Commons Atribución 3.0 Internacional</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es" target="_blank">Licencia Creative Commons Atribución 3.0 Internacional</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">

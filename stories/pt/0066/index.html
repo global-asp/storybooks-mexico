@@ -76,7 +76,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-mexico/stories/pt" class="button">Regresar a lista de cuentos</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-mexico/stories/pt">Regresar a lista de cuentos</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0066/01.jpg"></div>
@@ -84,22 +84,22 @@
 		<h1><span class="def">Nozibele e os três fios de cabelo</span>
 			<span class="l1">Nozibele y sus tres cabellos</span>
 			<span class="l2">Nozibele and the three hairs</span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/pt/0066/mp3/01.mp3"></audio>
-				<button onclick="switchlang('pt,es','es,en,pt')" class="btn btn-lg lang-primary" title="Cambiar entre Portuguese y español">es</button>
-				<button onclick="switchlang('pt,en','es,en,pt')" class="btn btn-lg lang-secondary" title="Cambiar entre Portuguese y inglés">en</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon" src="/storybooks-mexico/css/pencil.svg" alt="Texto" width="38px"></span> Tessa Welch</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones" width="38px"></span> Wiehan de Jager</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Traducción"><img class="cover-icon" src="/storybooks-mexico/css/global.svg" alt="Traducción" width="38px"></span> Priscilla Freitas de Oliveira</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lectura en voz alta"><img class="cover-icon" src="/storybooks-mexico/css/megaphone.svg" alt="Lectura en voz alta" width="38px"></span> Alfredo Ferreira</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon" src="/storybooks-mexico/css/language.svg" alt="Lengua" width="38px"></span> <a href="/storybooks-mexico/stories/pt">portugués</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon" src="/storybooks-mexico/css/level.svg" alt="Nivel" width="38px"></span> <a href="/storybooks-mexico/stories/pt/level3">Nivel 3</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/pt/0066/pt-0066_nozibele.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/pt/0066/mp3/01.mp3"></audio>
+			<button onclick="switchlang('pt,es','es,en,pt')" class="btn btn-lg lang-primary" title="Cambiar entre Portuguese y español">es</button>
+			<button onclick="switchlang('pt,en','es,en,pt')" class="btn btn-lg lang-secondary" title="Cambiar entre Portuguese y inglés">en</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon" src="/storybooks-mexico/css/pencil.svg" alt="Texto"></span> Tessa Welch</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Traducción"><img class="cover-icon" src="/storybooks-mexico/css/global.svg" alt="Traducción"></span> Priscilla Freitas de Oliveira</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lectura en voz alta"><img class="cover-icon" src="/storybooks-mexico/css/megaphone.svg" alt="Lectura en voz alta"></span> Alfredo Ferreira</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon" src="/storybooks-mexico/css/language.svg" alt="Lengua"></span> <a href="/storybooks-mexico/stories/pt">portugués</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon" src="/storybooks-mexico/css/level.svg" alt="Nivel"></span> <a href="/storybooks-mexico/stories/pt/level3">Nivel 3</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/pt/0066/pt-0066_nozibele.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -201,13 +201,13 @@ They hurried back to the village.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	Cuando estaban cerca de casa, Nozibele se tocó el cuello y se dio cuenta que había olvidado su collar. "¡Por favor, acompáñenme a buscarlo!" ella les rogó a sus amigas. Pero sus amigas le dijeron que ya era muy tarde.
+	Cuando estaban cerca de casa, Nozibele se tocó el cuello y se dio cuenta que había olvidado su collar. “¡Por favor, acompáñenme a buscarlo!” ella les rogó a sus amigas. Pero sus amigas le dijeron que ya era muy tarde.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	When they were nearly home,
 Nozibele put her hand to her neck.
 She had forgotten her necklace!
-"Please come back with me!" she
+“Please come back with me!” she
 begged her friends.
 But her friends said it was too late.
 	</h3></div>
@@ -297,14 +297,14 @@ at the door.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	Para su sorpresa, un perro abrió la puerta y le preguntó, "¿Qué quieres?" "Estoy perdida y necesito un lugar para dormir," respondió Nozibele. "¡Pasa si no te morderé!" dijo el perro. Así que Nozibele pasó.
+	Para su sorpresa, un perro abrió la puerta y le preguntó, “¿Qué quieres?” “Estoy perdida y necesito un lugar para dormir,” respondió Nozibele. “¡Pasa si no te morderé!” dijo el perro. Así que Nozibele pasó.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	To her surprise, a dog opened the
-door and said, "What do you want?"
-"I'm lost and I need a place to
-sleep," said Nozibele.
-"Come in, or I'll bite you!" said the
+door and said, “What do you want?”
+“I’m lost and I need a place to
+sleep,” said Nozibele.
+“Come in, or I’ll bite you!” said the
 dog.
 So Nozibele went in.
 	</h3></div>
@@ -331,13 +331,13 @@ So Nozibele went in.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	Luego el perro dijo, "¡Cocina para mí!" "Pero nunca he cocinado para un perro antes," ella le contestó. "¡Cocina, o te muerdo!" dijo el perro. Así que Nozibele cocinó un poco de comida para el perro.
+	Luego el perro dijo, “¡Cocina para mí!” “Pero nunca he cocinado para un perro antes,” ella le contestó. “¡Cocina, o te muerdo!” dijo el perro. Así que Nozibele cocinó un poco de comida para el perro.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Then the dog said, "Cook for me!"
-"But I've never cooked for a dog
-before," she answered.
-"Cook, or I'll bite you!" said the dog.
+	Then the dog said, “Cook for me!”
+“But I’ve never cooked for a dog
+before,” she answered.
+“Cook, or I’ll bite you!” said the dog.
 So Nozibele cooked some food for
 the dog.
 	</h3></div>
@@ -364,14 +364,14 @@ the dog.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	Luego el perro dijo, "¡Haz la cama para mí!" Nozibele respondió, "Nunca he hecho la cama de un perro." "¡Hazla, o te muerdo!" dijo el perro. Así que Nozibele hizo la cama.
+	Luego el perro dijo, “¡Haz la cama para mí!” Nozibele respondió, “Nunca he hecho la cama de un perro.” “¡Hazla, o te muerdo!” dijo el perro. Así que Nozibele hizo la cama.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Then the dog said, "Make the bed
-for me!"
-Nozibele answered, "I've never
-made a bed for a dog."
-"Make the bed, or I'll bite you!" the
+	Then the dog said, “Make the bed
+for me!”
+Nozibele answered, “I’ve never
+made a bed for a dog.”
+“Make the bed, or I’ll bite you!” the
 dog said.
 So Nozibele made the bed.
 	</h3></div>
@@ -398,16 +398,16 @@ So Nozibele made the bed.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	Ella tenía que cocinar, barrer y lavar todos los días para el perro. Hasta que un día el perro le dijo, "Nozibele, hoy tengo que ir a ver a unos amigos. Barre la casa, prepara comida y lava mis cosas antes de que regrese."
+	Ella tenía que cocinar, barrer y lavar todos los días para el perro. Hasta que un día el perro le dijo, “Nozibele, hoy tengo que ir a ver a unos amigos. Barre la casa, prepara comida y lava mis cosas antes de que regrese.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	Every day she had to cook and
 sweep and wash for the dog.
 Then one day the dog said,
-"Nozibele, today I have to visit
+“Nozibele, today I have to visit
 some friends. Sweep the house,
 cook the food and wash my things
-before I come back."
+before I come back.”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -467,18 +467,18 @@ could.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	Cuando el perro regresó a casa, comenzó a buscar a Nozibele. "¡Nozibele, ¿dónde estás?!" el gritaba. "Aquí estoy, debajo de la cama," dijo el primer cabello. "Estoy aquí, detrás de la puerta," dijo el segundo cabello. "Estoy aquí, en el corral," dijo el tercero.
+	Cuando el perro regresó a casa, comenzó a buscar a Nozibele. “¡Nozibele, ¿dónde estás?!” el gritaba. “Aquí estoy, debajo de la cama,” dijo el primer cabello. “Estoy aquí, detrás de la puerta,” dijo el segundo cabello. “Estoy aquí, en el corral,” dijo el tercero.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	When the dog came back, he looked
 for Nozibele.
-"Nozibele, where are you?" he
+“Nozibele, where are you?” he
 shouted.
-"I'm here, under the bed," said the
+“I’m here, under the bed,” said the
 first hair.
-"I'm here, behind the door," said the
+“I’m here, behind the door,” said the
 second hair.
-"I'm here, in the kraal," said the
+“I’m here, in the kraal,” said the
 third hair.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
@@ -511,7 +511,7 @@ third hair.
 had tricked him.
 So he ran and ran all the way to the
 village.
-But Nozibele's brothers were
+But Nozibele’s brothers were
 waiting there with big sticks.
 The dog turned and ran away and
 has never been seen since.
@@ -542,7 +542,7 @@ has never been seen since.
 		<h5><a href="/storybooks-mexico/stories/pt/level3">Nivel 3</a></h5>
 		<h5>Fuente: <a href="https://africanstorybook.org/reader.php?id=1880" target="_blank">Nozibele and the three hairs</a> del <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es">Licencia Creative Commons Atribución 3.0 Internacional</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es" target="_blank">Licencia Creative Commons Atribución 3.0 Internacional</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">

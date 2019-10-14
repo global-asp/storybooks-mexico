@@ -76,7 +76,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-mexico/stories/pt" class="button">Regresar a lista de cuentos</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-mexico/stories/pt">Regresar a lista de cuentos</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/01.jpg"></div>
@@ -84,22 +84,22 @@
 		<h1><span class="def">Simbegwire</span>
 			<span class="l1">Simbegwire</span>
 			<span class="l2">Simbegwire</span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/pt/0052/mp3/01.mp3"></audio>
-				<button onclick="switchlang('pt,es','es,en,pt')" class="btn btn-lg lang-primary" title="Cambiar entre Portuguese y español">es</button>
-				<button onclick="switchlang('pt,en','es,en,pt')" class="btn btn-lg lang-secondary" title="Cambiar entre Portuguese y inglés">en</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon" src="/storybooks-mexico/css/pencil.svg" alt="Texto" width="38px"></span> Rukia Nantale</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones" width="38px"></span> Benjamin Mitchley</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Traducción"><img class="cover-icon" src="/storybooks-mexico/css/global.svg" alt="Traducción" width="38px"></span> Priscilla Freitas de Oliveira</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lectura en voz alta"><img class="cover-icon" src="/storybooks-mexico/css/megaphone.svg" alt="Lectura en voz alta" width="38px"></span> Alfredo Ferreira</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon" src="/storybooks-mexico/css/language.svg" alt="Lengua" width="38px"></span> <a href="/storybooks-mexico/stories/pt">portugués</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon" src="/storybooks-mexico/css/level.svg" alt="Nivel" width="38px"></span> <a href="/storybooks-mexico/stories/pt/level5">Nivel 5</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/pt/0052/pt-0052_simbegwire.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/pt/0052/mp3/01.mp3"></audio>
+			<button onclick="switchlang('pt,es','es,en,pt')" class="btn btn-lg lang-primary" title="Cambiar entre Portuguese y español">es</button>
+			<button onclick="switchlang('pt,en','es,en,pt')" class="btn btn-lg lang-secondary" title="Cambiar entre Portuguese y inglés">en</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon" src="/storybooks-mexico/css/pencil.svg" alt="Texto"></span> Rukia Nantale</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones"></span> Benjamin Mitchley</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Traducción"><img class="cover-icon" src="/storybooks-mexico/css/global.svg" alt="Traducción"></span> Priscilla Freitas de Oliveira</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lectura en voz alta"><img class="cover-icon" src="/storybooks-mexico/css/megaphone.svg" alt="Lectura en voz alta"></span> Alfredo Ferreira</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon" src="/storybooks-mexico/css/language.svg" alt="Lengua"></span> <a href="/storybooks-mexico/stories/pt">portugués</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon" src="/storybooks-mexico/css/level.svg" alt="Nivel"></span> <a href="/storybooks-mexico/stories/pt/level5">Nivel 5</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/pt/0052/pt-0052_simbegwire.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -114,17 +114,17 @@
 	Cuando la madre de Simbegwire murió, ella estaba muy triste. El padre de Simbegwire hizo lo mejor que pudo para cuidar de su hija. Lentamente, aprendieron a ser felices de nuevo, sin la madre de Simbegwire. Cada mañana, se sentaban y hablaban sobre el siguiente día. Cada tarde, hacían la cena juntos. Luego, lavaban los platos y el padre de Simbegwire la ayudaba con sus tareas.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	When Simbegwire's mother died,
-she was very sad. Simbegwire's
+	When Simbegwire’s mother died,
+she was very sad. Simbegwire’s
 father did his best to take care of
 his daughter. Slowly, they learned
 to feel happy again, without
-Simbegwire's mother.
+Simbegwire’s mother.
 Every morning they sat and talked
 about the day ahead. Every evening
 they made dinner together. After
 they washed the dishes,
-Simbegwire's father helped her with
+Simbegwire’s father helped her with
 homework.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
@@ -150,17 +150,17 @@ homework.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	Un día, el padre de Simbegwire llegó a casa más tarde de lo usual. "¿Dónde estás mi niña?" él preguntó. Simbegwire corrió hacia su padre, y quedó inmóvil cuando vio que él estaba tomado de la mano con una mujer. "Quiero que conozcas a alguien muy especial, mi niña. Ella es Anita," dijo sonriendo.
+	Un día, el padre de Simbegwire llegó a casa más tarde de lo usual. “¿Dónde estás mi niña?” él preguntó. Simbegwire corrió hacia su padre, y quedó inmóvil cuando vio que él estaba tomado de la mano con una mujer. “Quiero que conozcas a alguien muy especial, mi niña. Ella es Anita,” dijo sonriendo.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	One day, Simbegwire's father came
-home later than usual. "Where are
-you my child?" he called.
+	One day, Simbegwire’s father came
+home later than usual. “Where are
+you my child?” he called.
 Simbegwire ran to her father. She
 stopped still when she saw that he
-was holding a woman's hand. "I
+was holding a woman’s hand. “I
 want you to meet someone special,
-my child. This is Anita," he said
+my child. This is Anita,” he said
 smiling.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
@@ -186,19 +186,19 @@ smiling.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	"Hola Simbegwire, tu padre me ha contado mucho sobre ti," dijo Anita. Pero no le sonrió ni tomó de la mano. El padre de Simbegwire estaba feliz y emocionado. Él habló sobre los tres viviendo juntos, y cuán bueno eso sería. "Mi niña, espero que aceptes a Anita como tu madre," él dijo.
+	“Hola Simbegwire, tu padre me ha contado mucho sobre ti,” dijo Anita. Pero no le sonrió ni tomó de la mano. El padre de Simbegwire estaba feliz y emocionado. Él habló sobre los tres viviendo juntos, y cuán bueno eso sería. “Mi niña, espero que aceptes a Anita como tu madre,” él dijo.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	"Hello Simbegwire, your father told
-me a lot about you," said Anita. But
-she did not smile or take the girl's
+	“Hello Simbegwire, your father told
+me a lot about you,” said Anita. But
+she did not smile or take the girl’s
 hand.
-Simbegwire's father was happy and
+Simbegwire’s father was happy and
 excited. He talked about the three
 of them living together, and how
-good their life would be. "My child, I
+good their life would be. “My child, I
 hope you will accept Anita as your
-mother," he said.
+mother,” he said.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -226,7 +226,7 @@ mother," he said.
 	La vida de Simbegwire cambió. Ya no tenía tiempo para sentarse con su padre por las mañanas. Anita le dio muchas tareas domésticas que la agotaban demasiado para hacer sus tareas escolares por las tardes. Ella se iba directo a su cama después de cenar. Su único consuelo era su manta colorida que su madre le regaló. El padre de Simbegwire no parecía notar que su hija estaba triste.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Simbegwire's life changed. She no
+	Simbegwire’s life changed. She no
 longer had time to sit with her
 father in the mornings. Anita gave
 her so many household chores that
@@ -235,7 +235,7 @@ work in the evenings. She went
 straight to bed after dinner.
 Her only comfort was the colourful
 blanket her mother gave her.
-Simbegwire's father did not seem to
+Simbegwire’s father did not seem to
 notice that his daughter was
 unhappy.
 	</h3></div>
@@ -262,15 +262,15 @@ unhappy.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	Después de varios meses, el padre de Simbegwire les dijo que él estaría fuera de casa por un tiempo. "Tengo que viajar por mi trabajo," él dijo. "Pero sé que ustedes se cuidarán la una a la otra." Simbegwire puso cara de decepción, pero su padre no la notó. Anita no dijo nada. Ella tampoco estaba contenta.
+	Después de varios meses, el padre de Simbegwire les dijo que él estaría fuera de casa por un tiempo. “Tengo que viajar por mi trabajo,” él dijo. “Pero sé que ustedes se cuidarán la una a la otra.” Simbegwire puso cara de decepción, pero su padre no la notó. Anita no dijo nada. Ella tampoco estaba contenta.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	After a few months, Simbegwire's
+	After a few months, Simbegwire’s
 father told them that he would be
-away from home for a while. "I have
-to travel for my job," he said. "But I
-know you will look after each other."
-Simbegwire's face fell, but her
+away from home for a while. “I have
+to travel for my job,” he said. “But I
+know you will look after each other.”
+Simbegwire’s face fell, but her
 father did not notice. Anita did not
 say anything. She was not happy
 either.
@@ -302,13 +302,13 @@ either.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
 	Things got worse for Simbegwire. If
-she didn't finish her chores, or she
+she didn’t finish her chores, or she
 complained, Anita hit her. And at
 dinner, the woman ate most of the
 food, leaving Simbegwire with only
 a few scraps.
 Each night Simbegwire cried herself
-to sleep, hugging her mother's
+to sleep, hugging her mother’s
 blanket.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
@@ -334,11 +334,11 @@ blanket.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	Una mañana, Simbegwire se atrasó en levantarse. "¡Qué niña más floja!" Anita le gritó. Ella la tiró fuera de la cama. La manta tan preciada de Simbegwire que había quedado enganchada en un clavo, se rasgó en dos.
+	Una mañana, Simbegwire se atrasó en levantarse. “¡Qué niña más floja!” Anita le gritó. Ella la tiró fuera de la cama. La manta tan preciada de Simbegwire que había quedado enganchada en un clavo, se rasgó en dos.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
 	One morning, Simbegwire was late
-getting out of bed. "You lazy girl!"
+getting out of bed. “You lazy girl!”
 Anita shouted. She pulled
 Simbegwire out of bed. The
 precious blanket caught on a nail,
@@ -372,7 +372,7 @@ and tore in two.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
 	Simbegwire was very upset. She
 decided to run away from home.
-She took the pieces of her mother's
+She took the pieces of her mother’s
 blanket, packed some food, and left
 the house. She followed the road
 her father had taken.
@@ -400,7 +400,7 @@ her father had taken.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	Cuando atardeció, Simbegwire se trepó a un árbol muy alto que estaba cerca de un riachuelo e hizo una cama en sus ramas. Mientras se quedaba dormida, ella cantaba: "Maamá, maamá, maamá, me abandonaste. Me abandonaste y nunca regresaste. Mi padre ya no me ama. Madre, ¿cuándo regresarás? Me abandonaste."
+	Cuando atardeció, Simbegwire se trepó a un árbol muy alto que estaba cerca de un riachuelo e hizo una cama en sus ramas. Mientras se quedaba dormida, ella cantaba: “Maamá, maamá, maamá, me abandonaste. Me abandonaste y nunca regresaste. Mi padre ya no me ama. Madre, ¿cuándo regresarás? Me abandonaste.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
 	When it came to evening, she
@@ -408,12 +408,12 @@ climbed a tall tree near a stream
 and made a bed for herself in the
 branches.
 As she went to sleep, she sang:
-"Maama, maama, maama, you left
+“Maama, maama, maama, you left
 me.
 You left me and never came back.
-Father doesn't love me anymore.
+Father doesn’t love me anymore.
 Mother, when are you coming back?
-You left me."
+You left me.”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -475,14 +475,14 @@ the song.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	Esta mujer miró hacia arriba del árbol. Cuando vio a la niña con su manta en pedazos, gritó, "¡Simbegwire, la hija de mi hermano!" Las otras mujeres dejaron de lavar y ayudaron a Simbegwire a bajar del árbol. Su tía la abrazó y trató de consolarla.
+	Esta mujer miró hacia arriba del árbol. Cuando vio a la niña con su manta en pedazos, gritó, “¡Simbegwire, la hija de mi hermano!” Las otras mujeres dejaron de lavar y ayudaron a Simbegwire a bajar del árbol. Su tía la abrazó y trató de consolarla.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
 	This woman looked up into the tree.
 When she saw the girl and the
 pieces of colourful blanket, she
-cried, "Simbegwire, my brother's
-child!"
+cried, “Simbegwire, my brother’s
+child!”
 The other women stopped washing
 and helped Simbegwire to climb
 down from the tree. Her aunt
@@ -515,10 +515,10 @@ comfort her.
 	La tía de Simbegwire la llevó a su casa. Le dio de comer, y la acomodó en la cama con la manta de su madre. Esa noche, Simbegwire lloraba mientras se quedaba dormida. Pero eran lágrimas de alegría. Sabía que su tía cuidaría de ella.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Simbegwire's aunt took the child to
+	Simbegwire’s aunt took the child to
 her own house. She gave
 Simbegwire warm food, and tucked
-her in bed with her mother's
+her in bed with her mother’s
 blanket.
 That night, Simbegwire cried as she
 went to sleep. But they were tears
@@ -548,20 +548,20 @@ look after her.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	Cuando el padre de Simbegwire regresó a casa, encontró su habitación vacía. "¿Qué ocurrió, Anita?" él preguntó con gran tristeza. La mujer le dijo que Simbegwire había huido de casa. "Quería que me respetara," ella dijo. "Pero quizás fui muy estricta." El padre de Simbegwire salió de la casa y caminó con dirección hacia el riachuelo. Siguió caminando hasta la villa de su hermana para preguntarle por Simbegwire.
+	Cuando el padre de Simbegwire regresó a casa, encontró su habitación vacía. “¿Qué ocurrió, Anita?” él preguntó con gran tristeza. La mujer le dijo que Simbegwire había huido de casa. “Quería que me respetara,” ella dijo. “Pero quizás fui muy estricta.” El padre de Simbegwire salió de la casa y caminó con dirección hacia el riachuelo. Siguió caminando hasta la villa de su hermana para preguntarle por Simbegwire.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	When Simbegwire's father returned
+	When Simbegwire’s father returned
 home, he found her room empty.
-"What happened, Anita?" he asked
+“What happened, Anita?” he asked
 with a heavy heart. The woman
 explained that Simbegwire had run
-away. "I wanted her to respect me,"
-she said. "But perhaps I was too
-strict."
-Simbegwire's father left the house
+away. “I wanted her to respect me,”
+she said. “But perhaps I was too
+strict.”
+Simbegwire’s father left the house
 and went in the direction of the
-stream. He continued to his sister's
+stream. He continued to his sister’s
 village to find out if she had seen
 Simbegwire.
 	</h3></div>
@@ -588,7 +588,7 @@ Simbegwire.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	Simbegwire estaba jugando con sus primos cuando vio a su padre de lejos. Ella tenía miedo de que estuviera enfadado, así que corrió a esconderse. Pero su padre la siguió y le dijo, "Simbegwire, has encontrado a la madre perfecta para ti. Una madre que te ama y te entiende. Estoy orgulloso de ti y te amo." Los dos estaban de acuerdo en que Simbegwire podía quedarse con su tía el tiempo que quisiera.
+	Simbegwire estaba jugando con sus primos cuando vio a su padre de lejos. Ella tenía miedo de que estuviera enfadado, así que corrió a esconderse. Pero su padre la siguió y le dijo, “Simbegwire, has encontrado a la madre perfecta para ti. Una madre que te ama y te entiende. Estoy orgulloso de ti y te amo.” Los dos estaban de acuerdo en que Simbegwire podía quedarse con su tía el tiempo que quisiera.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
 	Simbegwire was playing with her
@@ -597,11 +597,11 @@ from far away. She was scared he
 might be angry, so she ran inside
 the house to hide.
 But her father went to her and said,
-"Simbegwire, you have found a
+“Simbegwire, you have found a
 perfect mother for yourself. One
 who loves you and understands
 you. I am proud of you and I love
-you."
+you.”
 They agreed that Simbegwire would
 stay with her aunt as long as she
 wanted to.
@@ -629,15 +629,15 @@ wanted to.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	Su padre la visitaba todos los días. Con el paso del tiempo, él llevó a Anita. Ella tomó la mando de Simbegwire. "Lo siento mucho pequeñita, me equivoqué," le dijo. "¿Me darías otra oportunidad?" Simbegwire volteó a mirar a su padre, quien lucía preocupado. Entonces, ella se acercó a Anita lentamente y la abrazó.
+	Su padre la visitaba todos los días. Con el paso del tiempo, él llevó a Anita. Ella tomó la mando de Simbegwire. “Lo siento mucho pequeñita, me equivoqué,” le dijo. “¿Me darías otra oportunidad?” Simbegwire volteó a mirar a su padre, quien lucía preocupado. Entonces, ella se acercó a Anita lentamente y la abrazó.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
 	Her father visited her every day.
 Eventually, he came with Anita. She
-reached out for Simbegwire's hand.
-"I'm so sorry little one, I was
-wrong," she cried. "Will you let me
-try again?"
+reached out for Simbegwire’s hand.
+“I’m so sorry little one, I was
+wrong,” she cried. “Will you let me
+try again?”
 Simbegwire looked at her father
 and his worried face. Then she
 stepped forward slowly and put her
@@ -673,7 +673,7 @@ arms around Anita.
 Simbegwire, with her cousins and
 aunt, to the house for a meal. What
 a feast! Anita prepared all of
-Simbegwire's favourite foods, and
+Simbegwire’s favourite foods, and
 everyone ate until they were full.
 Then the children played while the
 adults talked.
@@ -708,7 +708,7 @@ her father and her stepmother.
 		<h5><a href="/storybooks-mexico/stories/pt/level5">Nivel 5</a></h5>
 		<h5>Fuente: <a href="https://africanstorybook.org/reader.php?id=7068" target="_blank">Simbegwire</a> del <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es">Licencia Creative Commons Atribución 3.0 Internacional</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es" target="_blank">Licencia Creative Commons Atribución 3.0 Internacional</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">

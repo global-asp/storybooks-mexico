@@ -76,7 +76,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-mexico/stories/de" class="button">Regresar a lista de cuentos</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-mexico/stories/de">Regresar a lista de cuentos</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/01.jpg"></div>
@@ -84,22 +84,22 @@
 		<h1><span class="def">Ferien mit Großmutter</span>
 			<span class="l1">De vacaciones con la abuela</span>
 			<span class="l2">Holidays with grandmother</span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/de/0243/mp3/01.mp3"></audio>
-				<button onclick="switchlang('de,es','es,en,de')" class="btn btn-lg lang-primary" title="Cambiar entre German y español">es</button>
-				<button onclick="switchlang('de,en','es,en,de')" class="btn btn-lg lang-secondary" title="Cambiar entre German y inglés">en</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon" src="/storybooks-mexico/css/pencil.svg" alt="Texto" width="38px"></span> Violet Otieno</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones" width="38px"></span> Catherine Groenewald</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Traducción"><img class="cover-icon" src="/storybooks-mexico/css/global.svg" alt="Traducción" width="38px"></span> Anna Westpfahl</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lectura en voz alta"><img class="cover-icon" src="/storybooks-mexico/css/megaphone.svg" alt="Lectura en voz alta" width="38px"></span> Jula Eberth</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon" src="/storybooks-mexico/css/language.svg" alt="Lengua" width="38px"></span> <a href="/storybooks-mexico/stories/de">alemán</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon" src="/storybooks-mexico/css/level.svg" alt="Nivel" width="38px"></span> <a href="/storybooks-mexico/stories/de/level4">Nivel 4</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/de/0243/de-0243_holidays.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/de/0243/mp3/01.mp3"></audio>
+			<button onclick="switchlang('de,es','es,en,de')" class="btn btn-lg lang-primary" title="Cambiar entre German y español">es</button>
+			<button onclick="switchlang('de,en','es,en,de')" class="btn btn-lg lang-secondary" title="Cambiar entre German y inglés">en</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon" src="/storybooks-mexico/css/pencil.svg" alt="Texto"></span> Violet Otieno</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones"></span> Catherine Groenewald</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Traducción"><img class="cover-icon" src="/storybooks-mexico/css/global.svg" alt="Traducción"></span> Anna Westpfahl</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lectura en voz alta"><img class="cover-icon" src="/storybooks-mexico/css/megaphone.svg" alt="Lectura en voz alta"></span> Jula Eberth</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon" src="/storybooks-mexico/css/language.svg" alt="Lengua"></span> <a href="/storybooks-mexico/stories/de">alemán</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon" src="/storybooks-mexico/css/level.svg" alt="Nivel"></span> <a href="/storybooks-mexico/stories/de/level4">Nivel 4</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/de/0243/de-0243_holidays.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -188,7 +188,7 @@ holiday.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Early the next morning, they
 left for the village in their
-father's car.
+father’s car.
 They drove past mountains,
 wild animals and tea
 plantations.
@@ -247,7 +247,7 @@ tired and fell asleep.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	El padre despertó a Odongo y Apiyo cuando llegaron a la aldea. Se encontraron a su abuela, Nyar-Kanyada, descansando con una manta debajo de un árbol. Nyar-Kanyada significa "hija de la gente de Kanyada" en el idioma Luo. La abuela era una mujer fuerte y hermosa.
+	El padre despertó a Odongo y Apiyo cuando llegaron a la aldea. Se encontraron a su abuela, Nyar-Kanyada, descansando con una manta debajo de un árbol. Nyar-Kanyada significa “hija de la gente de Kanyada” en el idioma Luo. La abuela era una mujer fuerte y hermosa.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Father woke up Odongo and
@@ -257,8 +257,8 @@ They found Nyar-Kanyada, their
 grandmother, resting on a mat
 under a tree.
 Nyar-Kanyada in Luo, means
-'daughter of the people of
-Kanyada'.
+‘daughter of the people of
+Kanyada’.
 She was a strong and beautiful
 woman.
 	</h3></div>
@@ -285,7 +285,7 @@ woman.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Nyar-Kanyada les dio la bienvenida a su casa, bailando y cantando de alegría. Sus nietos estaban ansiosos por entregarle los regalos que le trajeron de la ciudad. "Abre mi regalo primero," dijo Odongo. "¡No, mi regalo primero!" dijo Apiyo.
+	Nyar-Kanyada les dio la bienvenida a su casa, bailando y cantando de alegría. Sus nietos estaban ansiosos por entregarle los regalos que le trajeron de la ciudad. “Abre mi regalo primero,” dijo Odongo. “¡No, mi regalo primero!” dijo Apiyo.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Nyar-Kanyada welcomed them
@@ -295,9 +295,9 @@ joy.
 Her grandchildren were excited
 to give her the presents they
 brought from the city.
-"First open my gift," said
+“First open my gift,” said
 Odongo.
-"No, my gift first!" said Apiyo.
+“No, my gift first!” said Apiyo.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -447,7 +447,7 @@ they were falling asleep!
 	Al día siguiente, el padre de los niños se fue de vuelta a la ciudad y los dejó con Nyar-Kanyada.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	The next day, the children's
+	The next day, the children’s
 father drove back to the city
 leaving them with Nyar-Kanyada.
 	</h3></div>
@@ -546,8 +546,8 @@ fish.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	One morning, Odongo took his
-grandmother's cows to graze.
-They ran onto a neighbour's
+grandmother’s cows to graze.
+They ran onto a neighbour’s
 farm.
 The farmer was angry with
 Odongo. He threatened to keep
@@ -680,7 +680,7 @@ journey.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Cuando su padre vino a recogerlos, no querían irse. Los niños le suplicaron a Nyar-Kanyada que se fuera con ellos a la ciudad. Ella sonrió y les dijo: "Estoy muy vieja para la ciudad. Estaré esperándolos cuando vuelvan a mi aldea otra vez."
+	Cuando su padre vino a recogerlos, no querían irse. Los niños le suplicaron a Nyar-Kanyada que se fuera con ellos a la ciudad. Ella sonrió y les dijo: “Estoy muy vieja para la ciudad. Estaré esperándolos cuando vuelvan a mi aldea otra vez.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	When their father came to fetch
@@ -688,10 +688,10 @@ them, they did not want to
 leave.
 The children begged Nyar-Kanyada to go with them to the
 city.
-She smiled and said, "I am too
+She smiled and said, “I am too
 old for the city. I will be waiting
 for you to come to my village
-again."
+again.”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -785,7 +785,7 @@ had a wonderful grandmother!
 		<h5><a href="/storybooks-mexico/stories/de/level4">Nivel 4</a></h5>
 		<h5>Fuente: <a href="https://africanstorybook.org/reader.php?id=12084" target="_blank">Holidays with grandmother</a> del <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.es"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.es">Licencia Creative Commons Atribución 4.0 Internacional</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.es" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.es" target="_blank">Licencia Creative Commons Atribución 4.0 Internacional</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">

@@ -76,7 +76,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-mexico/stories/en" class="button">Regresar a lista de cuentos</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-mexico/stories/en">Regresar a lista de cuentos</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0111/01.jpg"></div>
@@ -84,21 +84,21 @@
 		<h1><span class="def">Why hippos have no hair</span>
 			<span class="l1">¿Por qué los hipopótamos no tienen pelo?</span>
 			<span class="l2">Why hippos have no hair</span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/en/0111/mp3/01.mp3"></audio>
-				<button onclick="switchlang('en,es','es,en,en')" class="btn btn-lg lang-primary" title="Cambiar entre English y español">es</button>
-				<button onclick="switchlang('en,en','es,en,en')" class="btn btn-lg lang-secondary" title="Cambiar entre English y inglés">en</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon" src="/storybooks-mexico/css/pencil.svg" alt="Texto" width="38px"></span> Basilio Gimo, David Ker</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones" width="38px"></span> Carol Liddiment</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lectura en voz alta"><img class="cover-icon" src="/storybooks-mexico/css/megaphone.svg" alt="Lectura en voz alta" width="38px"></span> Darshan Soni</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon" src="/storybooks-mexico/css/language.svg" alt="Lengua" width="38px"></span> <a href="/storybooks-mexico/stories/en">inglés</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon" src="/storybooks-mexico/css/level.svg" alt="Nivel" width="38px"></span> <a href="/storybooks-mexico/stories/en/level2">Nivel 2</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/en/0111/en-0111_hippos.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/en/0111/mp3/01.mp3"></audio>
+			<button onclick="switchlang('en,es','es,en,en')" class="btn btn-lg lang-primary" title="Cambiar entre English y español">es</button>
+			<button onclick="switchlang('en,en','es,en,en')" class="btn btn-lg lang-secondary" title="Cambiar entre English y inglés">en</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon" src="/storybooks-mexico/css/pencil.svg" alt="Texto"></span> Basilio Gimo, David Ker</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones"></span> Carol Liddiment</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lectura en voz alta"><img class="cover-icon" src="/storybooks-mexico/css/megaphone.svg" alt="Lectura en voz alta"></span> Darshan Soni</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon" src="/storybooks-mexico/css/language.svg" alt="Lengua"></span> <a href="/storybooks-mexico/stories/en">inglés</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon" src="/storybooks-mexico/css/level.svg" alt="Nivel"></span> <a href="/storybooks-mexico/stories/en/level2">Nivel 2</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/en/0111/en-0111_hippos.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -168,12 +168,12 @@ Rabbit started screaming at Hippo, “You Hippo! Can’t you see that you’re s
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	El Hipopótamo no vio que el Conejo estaba allí y le pisó su patita sin querer. El Conejo empezó a gritarle, "¡Oye Hipopótamo! ¿Acaso no puedes ver que estás pisando mi patita?"
+	El Hipopótamo no vio que el Conejo estaba allí y le pisó su patita sin querer. El Conejo empezó a gritarle, “¡Oye Hipopótamo! ¿Acaso no puedes ver que estás pisando mi patita?”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Hippo didn't see that Rabbit was there and she accidentally stepped on Rabbit's foot.
+	Hippo didn’t see that Rabbit was there and she accidentally stepped on Rabbit’s foot.
 
-Rabbit started screaming at Hippo, "You Hippo! Can't you see that you're stepping on my foot?"
+Rabbit started screaming at Hippo, “You Hippo! Can’t you see that you’re stepping on my foot?”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -200,12 +200,12 @@ But Rabbit wouldn’t listen and he shouted at Hippo, “You did that on purpose
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	El Hipopótamo le pidió disculpas al Conejo: "Lo siento mucho. No te vi. ¡Por favor, perdóname!" Pero el Conejo no le creyó y le dijo, "¡Lo hiciste a propósito! ¡Ya verás que algún día pagarás por esto!"
+	El Hipopótamo le pidió disculpas al Conejo: “Lo siento mucho. No te vi. ¡Por favor, perdóname!” Pero el Conejo no le creyó y le dijo, “¡Lo hiciste a propósito! ¡Ya verás que algún día pagarás por esto!”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Hippo apologised to Rabbit, "I'm so sorry. I didn't see you. Please forgive me!"
+	Hippo apologised to Rabbit, “I’m so sorry. I didn’t see you. Please forgive me!”
 
-But Rabbit wouldn't listen and he shouted at Hippo, "You did that on purpose! Someday, you'll see! You're going to pay!"
+But Rabbit wouldn’t listen and he shouted at Hippo, “You did that on purpose! Someday, you’ll see! You’re going to pay!”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -232,12 +232,12 @@ Fire answered, “No problem, Rabbit, my friend. I’ll do just what you ask.”
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	El Conejo fue a buscar al Fuego y le dijo, "Anda y quema al Hipopótamo cuando salga del agua y vaya a comer césped. ¡Me pisó!" El Fuego le respondió, "No hay problema, amigo Conejo. Haré exactamente lo que me pides."
+	El Conejo fue a buscar al Fuego y le dijo, “Anda y quema al Hipopótamo cuando salga del agua y vaya a comer césped. ¡Me pisó!” El Fuego le respondió, “No hay problema, amigo Conejo. Haré exactamente lo que me pides.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Rabbit went to find Fire and said, "Go, burn Hippo when she comes out of the water to eat grass. She stepped on me!"
+	Rabbit went to find Fire and said, “Go, burn Hippo when she comes out of the water to eat grass. She stepped on me!”
 
-Fire answered, "No problem, Rabbit, my friend. I'll do just what you ask."
+Fire answered, “No problem, Rabbit, my friend. I’ll do just what you ask.”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -262,10 +262,10 @@ Fire answered, "No problem, Rabbit, my friend. I'll do just what you ask."
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	Más tarde, El Hipopótamo estaba comiendo césped lejos del río cuando, "¡Zuum!" El Fuego estalló en llamas y las llamas le quemaron el pelo al Hipopótamo.
+	Más tarde, El Hipopótamo estaba comiendo césped lejos del río cuando, “¡Zuum!” El Fuego estalló en llamas y las llamas le quemaron el pelo al Hipopótamo.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Later, Hippo was eating grass far from the river when, "Whoosh!" Fire burst into flame. The flames began to burn Hippo's hair.
+	Later, Hippo was eating grass far from the river when, “Whoosh!” Fire burst into flame. The flames began to burn Hippo’s hair.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -292,12 +292,12 @@ Hippo kept crying, “My hair has burned in the fire! My hair is all gone! My be
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	El Hipopótamo comenzó a llorar y corrió directo al agua. Todo su pelo se quemó. El Hipopótamo siguió llorando, "¡Mi pelo se quemó en el fuego! ¡Mi pelo no está! ¡Mi hermoso pelo!"
+	El Hipopótamo comenzó a llorar y corrió directo al agua. Todo su pelo se quemó. El Hipopótamo siguió llorando, “¡Mi pelo se quemó en el fuego! ¡Mi pelo no está! ¡Mi hermoso pelo!”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
 	Hippo started to cry and ran for the water. All her hair was burned off by the fire.
 
-Hippo kept crying, "My hair has burned in the fire! My hair is all gone! My beautiful hair!"
+Hippo kept crying, “My hair has burned in the fire! My hair is all gone! My beautiful hair!”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -327,7 +327,7 @@ And to this day, for fear of fire, the hippo never goes far from the water.
 	El Conejo estaba muy feliz de que el pelo del Hipopótamo se había quemado. Y hasta el día de hoy, por miedo al fuego, el Hipopótamo nunca se aleja del agua.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Rabbit was happy that Hippo's hair was burned.
+	Rabbit was happy that Hippo’s hair was burned.
 
 And to this day, for fear of fire, the hippo never goes far from the water.
 	</h3></div>
@@ -356,7 +356,7 @@ And to this day, for fear of fire, the hippo never goes far from the water.
 		<h5><a href="/storybooks-mexico/stories/en/level2">Nivel 2</a></h5>
 		<h5>Fuente: <a href="https://africanstorybook.org/reader.php?id=6160" target="_blank">Why hippos have no hair</a> del <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es">Licencia Creative Commons Atribución 3.0 Internacional</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es" target="_blank">Licencia Creative Commons Atribución 3.0 Internacional</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
