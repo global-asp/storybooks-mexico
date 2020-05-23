@@ -90,6 +90,7 @@ function autoplay() {
   var audio = document.getElementById("audio01");
   var pbutton = document.getElementById("playbutton01");
   pbutton.innerHTML = '<i class="icon-pause"></i>';
+  window.location = "#text01";
   var index = 2;
   function playNext() {
     len = document.getElementsByClassName("img-responsive").length;
