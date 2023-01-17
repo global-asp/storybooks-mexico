@@ -4,13 +4,13 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-mexico/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-mexico/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-mexico/favicon-16x16.png">
-	<link rel="manifest" href="/storybooks-mexico/site.webmanifest">
-	<link rel="mask-icon" href="/storybooks-mexico/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href=/storybooks-mexico/favicon.ico">
-	<meta name="msapplication-TileColor" content="#da532c">
+	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-mexico/apple-touch-icon.png?v=4">
+	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-mexico/favicon-32x32.png?v=4">
+	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-mexico/favicon-16x16.png?v=4">
+	<link rel="manifest" href="/storybooks-mexico/site.webmanifest?v=4">
+	<link rel="mask-icon" href="/storybooks-mexico/safari-pinned-tab.svg?v=4" color="#5bbad5">
+	<link rel="shortcut icon" href="/storybooks-mexico/favicon.ico?v=4">
+	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
 	<title>Lꞌiyat de kantìl xkimiɨ̃ꞌɨ̃ - Cuentos para México</title>
 	<meta name="description" content="Cuentos para México se diseñó específicamente para docentes, padres de familia, e integrantes de las comunidades indígenas. Pone a su disposición 40 cuentos del African Storybook con su texto y audio en español e inglés, así como en otras lenguas nacionales mexicanas.
@@ -20,12 +20,10 @@
 	<link rel="stylesheet" href="/storybooks-mexico/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-mexico/stories/pmq/0337/">
 	<link rel="alternate" type="application/rss+xml" title="Cuentos para México" href="/storybooks-mexico">
-	<script src="/storybooks-mexico/js/sbc.js"></script>
+	<script src="/storybooks-mexico/js/sbc.min.js"></script>
 </head>
 
-
   <body>
-
 
     <div class="container">
 
@@ -49,7 +47,7 @@
 	</section>
 </header>
 
-        <div class="float-right"><a class="btn btn-lg" target="_blank" href="https://globalstorybooks.net/media/cpm/pdf/pmq/pmq-0337_cera.pdf">Descargar PDF</a></div>
+        <div class="float-right"><a class="btn btn-lg" href="https://globalstorybooks.net/media/cpm/pdf/pmq/pmq-0337_cera.pdf" target="_blank">Descargar PDF</a></div>
 
 <div class="float-right">
 	<select class="btn btn-lg" onchange="window.location=this.value" accesskey="l">
@@ -75,6 +73,7 @@
 		<option value="/storybooks-mexico/stories/mil/0337">tnu'u dau</option>
 		<option value="/storybooks-mexico/stories/miu/0337">tu’un savi</option>
 		<option value="/storybooks-mexico/stories/pmq/0337">xiꞌiùy</option>
+		<option value="/storybooks-mexico/about/languages/">Mas lenguas...</option>
 	</select>
 </div>
 
@@ -90,9 +89,11 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/cpm/audio/pmq/0337/mp3/01.mp3"></audio>
-			<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre Northern Pame y español">es</button>
-			<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre Northern Pame y inglés">en</button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/pmq/0337/mp3/01.mp3"></audio>
+			<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español
+">es</button>
+			<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés
+">en</button>
 		</div>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon cover-icon-text" src="/storybooks-mexico/css/pencil.svg" alt="Texto"></span> Southern African Folktale</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon cover-icon-text" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones"></span> Wiehan de Jager</h3>
@@ -100,13 +101,15 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Lectura en voz alta"><img class="cover-icon cover-icon-text" src="/storybooks-mexico/css/megaphone.svg" alt="Lectura en voz alta"></span> Constantino Gómez González</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon cover-icon-text" src="/storybooks-mexico/css/language.svg" alt="Lengua"></span> <a href="/storybooks-mexico/stories/pmq">xiꞌiùy</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon cover-icon-text" src="/storybooks-mexico/css/level.svg" alt="Nivel"></span> <a href="/storybooks-mexico/stories/pmq/level2">Nivel 2</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon cover-icon-audio" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/cpm/audio/pmq/0337/pmq-0337_wax.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon cover-icon-audio" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/pmq/0337/pmq-0337_wax.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Velocidad del audio"><img class="cover-icon cover-icon-text" src="/storybooks-mexico/css/speedometer.svg" alt="Velocidad del audio" style="cursor:pointer" onclick="normalspeed()"></span> <span id="slider_tooltip" class="tooltip" data-tooltip="Velocidad del audio: 1×"><input type="range" min="0.5" max="1.5" value="1" step="0.05" id="audio_slider" class="slider" oninput="adjustslider()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="/storybooks-mexico/css/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
+
 <hr>
 
-<div id="text02" class="columns">
+        <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0337/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
 	Namĩ nda ganuꞌ karadat ꞌliɛdat de nda katꞌùs ke mejudat mjàu taljiung.
@@ -124,12 +127,14 @@ family.
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="Página anterior"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
-		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/cpm/audio/pmq/0337/mp3/02.mp3"></audio>
+		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/pmq/0337/mp3/02.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español">es</button>
-		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés">en</button>
+		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español
+">es</button>
+		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés
+">en</button>
 	</div>
 </div>
 
@@ -155,12 +160,14 @@ and in the fields.
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="Página anterior"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
-		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/cpm/audio/pmq/0337/mp3/03.mp3"></audio>
+		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/pmq/0337/mp3/03.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español">es</button>
-		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés">en</button>
+		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español
+">es</button>
+		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés
+">en</button>
 	</div>
 </div>
 
@@ -185,12 +192,14 @@ fire.
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="Página anterior"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
-		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/cpm/audio/pmq/0337/mp3/04.mp3"></audio>
+		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/pmq/0337/mp3/04.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español">es</button>
-		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés">en</button>
+		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español
+">es</button>
+		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés
+">en</button>
 	</div>
 </div>
 
@@ -216,12 +225,14 @@ Because they were made of wax!
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="Página anterior"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
-		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/cpm/audio/pmq/0337/mp3/05.mp3"></audio>
+		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/pmq/0337/mp3/05.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español">es</button>
-		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés">en</button>
+		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español
+">es</button>
+		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés
+">en</button>
 	</div>
 </div>
 
@@ -246,12 +257,14 @@ sunlight.
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="Página anterior"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
-		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/cpm/audio/pmq/0337/mp3/06.mp3"></audio>
+		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/pmq/0337/mp3/06.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español">es</button>
-		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés">en</button>
+		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español
+">es</button>
+		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés
+">en</button>
 	</div>
 </div>
 
@@ -276,12 +289,14 @@ brothers warned him…
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="Página anterior"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
-		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/cpm/audio/pmq/0337/mp3/07.mp3"></audio>
+		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/pmq/0337/mp3/07.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español">es</button>
-		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés">en</button>
+		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español
+">es</button>
+		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés
+">en</button>
 	</div>
 </div>
 
@@ -306,12 +321,14 @@ sun.
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="Página anterior"><i class="icon-arrow-up"></i></a>
 		<a href="#text09" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
-		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/cpm/audio/pmq/0337/mp3/08.mp3"></audio>
+		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/audio/pmq/0337/mp3/08.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español">es</button>
-		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés">en</button>
+		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español
+">es</button>
+		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés
+">en</button>
 	</div>
 </div>
 
@@ -336,12 +353,14 @@ brother melting away.
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="Página anterior"><i class="icon-arrow-up"></i></a>
 		<a href="#text10" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
-		<audio id="audio09" onended="resetbutton('09')" src="https://globalstorybooks.net/media/cpm/audio/pmq/0337/mp3/09.mp3"></audio>
+		<audio id="audio09" onended="resetbutton('09')" src="https://globalstorybooks.net/media/audio/pmq/0337/mp3/09.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español">es</button>
-		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés">en</button>
+		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español
+">es</button>
+		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés
+">en</button>
 	</div>
 </div>
 
@@ -367,12 +386,14 @@ bird.
 	<div class="btn-group switcher-group">
 		<a href="#text09" class="btn btn-lg" title="Página anterior"><i class="icon-arrow-up"></i></a>
 		<a href="#text11" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
-		<audio id="audio10" onended="resetbutton('10')" src="https://globalstorybooks.net/media/cpm/audio/pmq/0337/mp3/10.mp3"></audio>
+		<audio id="audio10" onended="resetbutton('10')" src="https://globalstorybooks.net/media/audio/pmq/0337/mp3/10.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español">es</button>
-		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés">en</button>
+		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español
+">es</button>
+		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés
+">en</button>
 	</div>
 </div>
 
@@ -397,12 +418,14 @@ mountain.
 	<div class="btn-group switcher-group">
 		<a href="#text10" class="btn btn-lg" title="Página anterior"><i class="icon-arrow-up"></i></a>
 		<a href="#text12" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
-		<audio id="audio11" onended="resetbutton('11')" src="https://globalstorybooks.net/media/cpm/audio/pmq/0337/mp3/11.mp3"></audio>
+		<audio id="audio11" onended="resetbutton('11')" src="https://globalstorybooks.net/media/audio/pmq/0337/mp3/11.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español">es</button>
-		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés">en</button>
+		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español
+">es</button>
+		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés
+">en</button>
 	</div>
 </div>
 
@@ -427,33 +450,39 @@ the morning light.
 	<div class="btn-group switcher-group">
 		<a href="#text11" class="btn btn-lg" title="Página anterior"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="Créditos"><i class="icon-arrow-down"></i></a>
-		<audio id="audio12" onended="resetbutton('12')" src="https://globalstorybooks.net/media/cpm/audio/pmq/0337/mp3/12.mp3"></audio>
+		<audio id="audio12" onended="resetbutton('12')" src="https://globalstorybooks.net/media/audio/pmq/0337/mp3/12.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español">es</button>
-		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés">en</button>
+		<button onclick="switchlang('pmq,es','es,en,pmq')" class="btn btn-lg lang-primary" title="Cambiar entre xiꞌiùy y español
+">es</button>
+		<button onclick="switchlang('pmq,en','es,en,pmq')" class="btn btn-lg lang-secondary" title="Cambiar entre xiꞌiùy y inglés
+">en</button>
 	</div>
 </div>
 
 </div>
 <hr>
 
-<div id="colophon" class="columns">
-	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
-		<h5>Texto: Southern African Folktale</h5>
-		<h5>Ilustraciones: Wiehan de Jager</h5>
-		<h5>Traducción: Constantino Gómez González</h5>
-		<h5>Lectura en voz alta: Constantino Gómez González</h5>
-		<h5>Lengua: <a href="/storybooks-mexico/stories/pmq">xiꞌiùy</a></h5>
-		<h5><a href="/storybooks-mexico/stories/pmq/level2">Nivel 2</a></h5>
-		<h5>Fuente: <a href="https://africanstorybook.org/reader.php?id=2181" target="_blank">Children of wax</a> del <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.es" target="_blank">Licencia Creative Commons Atribución 3.0 Internacional</a>.</div>
+        <div id="colophon" class="columns">
+	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
+		<h5><span class="colophon-heading">Texto:</span> Southern African Folktale</h5>
+		<h5><span class="colophon-heading">Ilustraciones:</span> Wiehan de Jager</h5>
+		<h5><span class="colophon-heading">Traducción:</span> Constantino Gómez González</h5>
+		<h5><span class="colophon-heading">Lectura en voz alta:</span> Constantino Gómez González</h5>
+		<h5><span class="colophon-heading">Lengua:</span> <a href="/storybooks-mexico/stories/pmq">xiꞌiùy</a></h5>
+		<h5><span class="colophon-heading">Nivel:</span> <a href="/storybooks-mexico/stories/pmq/level2">Nivel 2</a></h5>
+		<h5><span class="colophon-heading">Fuente:</span> <a href="https://africanstorybook.org/reader.php?id=2181" target="_blank">Children of wax</a> del <a href="https://africanstorybook.org/">African Storybook</a>
+</h5>
+
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/" target="_blank"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Atribución 3.0 Internacional</a>.
+</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
-		<h5>Leer más cuentos <a href="/storybooks-mexico/stories/pmq/level2">nivel 2</a>:</h5>
+		<h5>Leer más cuentos <a href="/storybooks-mexico/stories/pmq/level2">nivel 2</a>:
+</h5>
 			<label class="chip"><a href="/storybooks-mexico/stories/pmq/0111/">¿Kjuà ruꞌ hipopótamos nip mꞌjẽ skanjɨ̃?</a></label>
 			<label class="chip"><a href="/storybooks-mexico/stories/pmq/0095/">Zama ɛs mjàu tsjàu nɛꞌ</a></label>
 			<label class="chip"><a href="/storybooks-mexico/stories/pmq/0089/">Khalai uàjau ruꞌ kiuãng</a></label>
@@ -468,10 +497,9 @@ the morning light.
 </div>
 <div>
 <h5>Opciones</h5>
-	<a class="btn btn-lg" href="/storybooks-mexico/stories/pmq" class="button">Regresar a lista de cuentos</a> <a class="btn btn-lg" target="_blank" href="https://globalstorybooks.net/media/cpm/pdf/pmq/pmq-0337_cera.pdf">Descargar PDF</a>
+	<a class="btn btn-lg" href="/storybooks-mexico/stories/pmq" class="button">Regresar a lista de cuentos</a> <a class="btn btn-lg" href="https://globalstorybooks.net/media/cpm/pdf/pmq/pmq-0337_cera.pdf" target="_blank">Descargar PDF</a>
 <br><br>
 </div>
-
 
 
     </div>

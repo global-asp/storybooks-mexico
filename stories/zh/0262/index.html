@@ -4,13 +4,13 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-mexico/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-mexico/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-mexico/favicon-16x16.png">
-	<link rel="manifest" href="/storybooks-mexico/site.webmanifest">
-	<link rel="mask-icon" href="/storybooks-mexico/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href=/storybooks-mexico/favicon.ico">
-	<meta name="msapplication-TileColor" content="#da532c">
+	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-mexico/apple-touch-icon.png?v=4">
+	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-mexico/favicon-32x32.png?v=4">
+	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-mexico/favicon-16x16.png?v=4">
+	<link rel="manifest" href="/storybooks-mexico/site.webmanifest?v=4">
+	<link rel="mask-icon" href="/storybooks-mexico/safari-pinned-tab.svg?v=4" color="#5bbad5">
+	<link rel="shortcut icon" href="/storybooks-mexico/favicon.ico?v=4">
+	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
 	<title>玛格威 - Cuentos para México</title>
 	<meta name="description" content="Cuentos para México se diseñó específicamente para docentes, padres de familia, e integrantes de las comunidades indígenas. Pone a su disposición 40 cuentos del African Storybook con su texto y audio en español e inglés, así como en otras lenguas nacionales mexicanas.
@@ -20,12 +20,10 @@
 	<link rel="stylesheet" href="/storybooks-mexico/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-mexico/stories/zh/0262/">
 	<link rel="alternate" type="application/rss+xml" title="Cuentos para México" href="/storybooks-mexico">
-	<script src="/storybooks-mexico/js/sbc.js"></script>
+	<script src="/storybooks-mexico/js/sbc.min.js"></script>
 </head>
 
-
   <body>
-
 
     <div class="container">
 
@@ -49,7 +47,7 @@
 	</section>
 </header>
 
-        <div class="float-right"><a class="btn btn-lg" target="_blank" href="https://globalstorybooks.net/media/cpm/pdf/zh/zh-0262_magozwe.pdf">Descargar PDF</a></div>
+        <div class="float-right"><a class="btn btn-lg" href="https://globalstorybooks.net/media/cpm/pdf/zh/zh-0262_magozwe.pdf" target="_blank">Descargar PDF</a></div>
 
 <div class="float-right">
 	<select class="btn btn-lg" onchange="window.location=this.value" accesskey="l">
@@ -75,6 +73,7 @@
 		<option value="/storybooks-mexico/stories/mil/0262">tnu'u dau</option>
 		<option value="/storybooks-mexico/stories/miu/0262">tu’un savi</option>
 		<option value="/storybooks-mexico/stories/pmq/0262">xiꞌiùy</option>
+		<option value="/storybooks-mexico/about/languages/">Mas lenguas...</option>
 	</select>
 </div>
 
@@ -91,8 +90,10 @@
 			<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/zh/0262/mp3/01.mp3"></audio>
-			<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre Chinese (Mandarin) y español">es</button>
-			<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre Chinese (Mandarin) y inglés">en</button>
+			<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español
+">es</button>
+			<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés
+">en</button>
 		</div>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon cover-icon-text" src="/storybooks-mexico/css/pencil.svg" alt="Texto"></span> Lesley Koyi</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon cover-icon-text" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones"></span> Wiehan de Jager</h3>
@@ -101,12 +102,14 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon cover-icon-text" src="/storybooks-mexico/css/language.svg" alt="Lengua"></span> <a href="/storybooks-mexico/stories/zh">chino</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon cover-icon-text" src="/storybooks-mexico/css/level.svg" alt="Nivel"></span> <a href="/storybooks-mexico/stories/zh/level5">Nivel 5</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon cover-icon-audio" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/zh/0262/zh-0262_magozwe.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Velocidad del audio"><img class="cover-icon cover-icon-text" src="/storybooks-mexico/css/speedometer.svg" alt="Velocidad del audio" style="cursor:pointer" onclick="normalspeed()"></span> <span id="slider_tooltip" class="tooltip" data-tooltip="Velocidad del audio: 1×"><input type="range" min="0.5" max="1.5" value="1" step="0.05" id="audio_slider" class="slider" oninput="adjustslider()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="/storybooks-mexico/css/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
+
 <hr>
 
-<div id="text02" class="columns">
+        <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0262/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
 	在内罗毕这座繁忙的城市里，住着一群流浪的男孩，他们日复一日地活着，从来不知道什么是舒适安逸的生活。一天早上，男孩们从冰冷的人行道上醒来，把他们用来睡觉的毯子叠起来。天太冷了，为了驱赶寒气，他们用拾来的垃圾燃起了一堆火。在这群男孩中有一个人叫玛格威。
@@ -130,8 +133,10 @@ Among the group of boys was Magozwe. He was the youngest.
 		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español">es</button>
-		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés">en</button>
+		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español
+">es</button>
+		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés
+">en</button>
 	</div>
 </div>
 
@@ -158,8 +163,10 @@ Among the group of boys was Magozwe. He was the youngest.
 		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español">es</button>
-		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés">en</button>
+		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español
+">es</button>
+		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés
+">en</button>
 	</div>
 </div>
 
@@ -188,8 +195,10 @@ After three years of this treatment Magozwe ran away from his uncle. He started 
 		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español">es</button>
-		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés">en</button>
+		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español
+">es</button>
+		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés
+">en</button>
 	</div>
 </div>
 
@@ -220,8 +229,10 @@ Life was even more difficult because of fights with rival groups who wanted cont
 		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español">es</button>
-		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés">en</button>
+		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español
+">es</button>
+		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés
+">en</button>
 	</div>
 </div>
 
@@ -250,8 +261,10 @@ Every day after that he would take out the book and look at the pictures. He did
 		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español">es</button>
-		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés">en</button>
+		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español
+">es</button>
+		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés
+">en</button>
 	</div>
 </div>
 
@@ -280,8 +293,10 @@ Magozwe would daydream of being a pilot. Sometimes, he imagined that he was the 
 		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español">es</button>
-		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés">en</button>
+		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español
+">es</button>
+		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés
+">en</button>
 	</div>
 </div>
 
@@ -312,8 +327,10 @@ Magozwe looked at the man, and then at the house. “Maybe,” he said, and walk
 		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español">es</button>
-		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés">en</button>
+		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español
+">es</button>
+		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés
+">en</button>
 	</div>
 </div>
 
@@ -342,8 +359,10 @@ Thomas listened to the stories of people’s lives. He was serious and patient, 
 		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español">es</button>
-		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés">en</button>
+		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español
+">es</button>
+		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés
+">en</button>
 	</div>
 </div>
 
@@ -378,8 +397,10 @@ Thomas listened to the stories of people’s lives. He was serious and patient, 
 		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español">es</button>
-		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés">en</button>
+		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español
+">es</button>
+		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés
+">en</button>
 	</div>
 </div>
 
@@ -410,8 +431,10 @@ Sometimes they would talk while they ate at the house with the blue roof.
 		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español">es</button>
-		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés">en</button>
+		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español
+">es</button>
+		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés
+">en</button>
 	</div>
 </div>
 
@@ -440,8 +463,10 @@ Thomas read that story to Magozwe many times, until one day he said, “I think 
 		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español">es</button>
-		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés">en</button>
+		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español
+">es</button>
+		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés
+">en</button>
 	</div>
 </div>
 
@@ -470,8 +495,10 @@ What if they beat him at this new place? He was afraid. “Maybe it is better to
 		<button class="btn btn-lg" id="playbutton13" onclick="playpause('13')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español">es</button>
-		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés">en</button>
+		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español
+">es</button>
+		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés
+">en</button>
 	</div>
 </div>
 
@@ -498,8 +525,10 @@ What if they beat him at this new place? He was afraid. “Maybe it is better to
 		<button class="btn btn-lg" id="playbutton14" onclick="playpause('14')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español">es</button>
-		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés">en</button>
+		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español
+">es</button>
+		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés
+">en</button>
 	</div>
 </div>
 
@@ -528,8 +557,10 @@ Altogether there were ten children living at that house. Along with Auntie Cissy
 		<button class="btn btn-lg" id="playbutton15" onclick="playpause('15')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español">es</button>
-		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés">en</button>
+		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español
+">es</button>
+		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés
+">en</button>
 	</div>
 </div>
 
@@ -558,8 +589,10 @@ But he thought about the pilot and the soccer player in the storybooks. Like the
 		<button class="btn btn-lg" id="playbutton16" onclick="playpause('16')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español">es</button>
-		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés">en</button>
+		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español
+">es</button>
+		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés
+">en</button>
 	</div>
 </div>
 
@@ -594,38 +627,43 @@ But he thought about the pilot and the soccer player in the storybooks. Like the
 		<button class="btn btn-lg" id="playbutton17" onclick="playpause('17')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español">es</button>
-		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés">en</button>
+		<button onclick="switchlang('zh,es','es,en,zh')" class="btn btn-lg lang-primary" title="Cambiar entre chino y español
+">es</button>
+		<button onclick="switchlang('zh,en','es,en,zh')" class="btn btn-lg lang-secondary" title="Cambiar entre chino y inglés
+">en</button>
 	</div>
 </div>
 
 </div>
 <hr>
 
-<div id="colophon" class="columns">
-	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
-		<h5>Texto: Lesley Koyi</h5>
-		<h5>Ilustraciones: Wiehan de Jager</h5>
-		<h5>Traducción: Vicky Liu</h5>
-		<h5>Lectura en voz alta: Zhuo Sun</h5>
-		<h5>Lengua: <a href="/storybooks-mexico/stories/zh">chino</a></h5>
-		<h5><a href="/storybooks-mexico/stories/zh/level5">Nivel 5</a></h5>
-		<h5>Fuente: <a href="https://africanstorybook.org/reader.php?id=13213" target="_blank">Magozwe</a> del <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.es" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.es" target="_blank">Licencia Creative Commons Atribución 4.0 Internacional</a>.</div>
+        <div id="colophon" class="columns">
+	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
+		<h5><span class="colophon-heading">Texto:</span> Lesley Koyi</h5>
+		<h5><span class="colophon-heading">Ilustraciones:</span> Wiehan de Jager</h5>
+		<h5><span class="colophon-heading">Traducción:</span> Vicky Liu</h5>
+		<h5><span class="colophon-heading">Lectura en voz alta:</span> Zhuo Sun</h5>
+		<h5><span class="colophon-heading">Lengua:</span> <a href="/storybooks-mexico/stories/zh">chino</a></h5>
+		<h5><span class="colophon-heading">Nivel:</span> <a href="/storybooks-mexico/stories/zh/level5">Nivel 5</a></h5>
+		<h5><span class="colophon-heading">Fuente:</span> <a href="https://africanstorybook.org/reader.php?id=13213" target="_blank">Magozwe</a> del <a href="https://africanstorybook.org/">African Storybook</a>
+</h5>
+
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Atribución 4.0 Internacional</a>.
+</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
-		<h5>Leer más cuentos <a href="/storybooks-mexico/stories/zh/level5">nivel 5</a>:</h5>
+		<h5>Leer más cuentos <a href="/storybooks-mexico/stories/zh/level5">nivel 5</a>:
+</h5>
 			<label class="chip"><a href="/storybooks-mexico/stories/zh/0052/">辛波薇亚</a></label>
 	</div>
 </div>
 <div>
 <h5>Opciones</h5>
-	<a class="btn btn-lg" href="/storybooks-mexico/stories/zh" class="button">Regresar a lista de cuentos</a> <a class="btn btn-lg" target="_blank" href="https://globalstorybooks.net/media/cpm/pdf/zh/zh-0262_magozwe.pdf">Descargar PDF</a>
+	<a class="btn btn-lg" href="/storybooks-mexico/stories/zh" class="button">Regresar a lista de cuentos</a> <a class="btn btn-lg" href="https://globalstorybooks.net/media/cpm/pdf/zh/zh-0262_magozwe.pdf" target="_blank">Descargar PDF</a>
 <br><br>
 </div>
-
 
 
     </div>

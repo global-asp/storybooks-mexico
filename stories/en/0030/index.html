@@ -4,13 +4,13 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-mexico/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-mexico/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-mexico/favicon-16x16.png">
-	<link rel="manifest" href="/storybooks-mexico/site.webmanifest">
-	<link rel="mask-icon" href="/storybooks-mexico/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href=/storybooks-mexico/favicon.ico">
-	<meta name="msapplication-TileColor" content="#da532c">
+	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-mexico/apple-touch-icon.png?v=4">
+	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-mexico/favicon-32x32.png?v=4">
+	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-mexico/favicon-16x16.png?v=4">
+	<link rel="manifest" href="/storybooks-mexico/site.webmanifest?v=4">
+	<link rel="mask-icon" href="/storybooks-mexico/safari-pinned-tab.svg?v=4" color="#5bbad5">
+	<link rel="shortcut icon" href="/storybooks-mexico/favicon.ico?v=4">
+	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
 	<title>Feelings - Cuentos para México</title>
 	<meta name="description" content="Cuentos para México se diseñó específicamente para docentes, padres de familia, e integrantes de las comunidades indígenas. Pone a su disposición 40 cuentos del African Storybook con su texto y audio en español e inglés, así como en otras lenguas nacionales mexicanas.
@@ -20,12 +20,10 @@
 	<link rel="stylesheet" href="/storybooks-mexico/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-mexico/stories/en/0030/">
 	<link rel="alternate" type="application/rss+xml" title="Cuentos para México" href="/storybooks-mexico">
-	<script src="/storybooks-mexico/js/sbc.js"></script>
+	<script src="/storybooks-mexico/js/sbc.min.js"></script>
 </head>
 
-
   <body>
-
 
     <div class="container">
 
@@ -49,7 +47,7 @@
 	</section>
 </header>
 
-        <div class="float-right"><a class="btn btn-lg" target="_blank" href="https://globalstorybooks.net/media/cpm/pdf/en/en-0030_sentimientos.pdf">Descargar PDF</a></div>
+        <div class="float-right"><a class="btn btn-lg" href="https://globalstorybooks.net/media/cpm/pdf/en/en-0030_sentimientos.pdf" target="_blank">Descargar PDF</a></div>
 
 <div class="float-right">
 	<select class="btn btn-lg" onchange="window.location=this.value" accesskey="l">
@@ -75,6 +73,7 @@
 		<option value="/storybooks-mexico/stories/mil/0030">tnu'u dau</option>
 		<option value="/storybooks-mexico/stories/miu/0030">tu’un savi</option>
 		<option value="/storybooks-mexico/stories/pmq/0030">xiꞌiùy</option>
+		<option value="/storybooks-mexico/about/languages/">Mas lenguas...</option>
 	</select>
 </div>
 
@@ -91,8 +90,10 @@
 			<a href="#text02" class="btn btn-lg" title="Página siguiente"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/en/0030/mp3/01.mp3"></audio>
-			<button onclick="switchlang('en,es','es,en,en')" class="btn btn-lg lang-primary" title="Cambiar entre English y español">es</button>
-			<button onclick="switchlang('en,en','es,en,en')" class="btn btn-lg lang-secondary" title="Cambiar entre English y inglés">en</button>
+			<button onclick="switchlang('en,es','es,en,en')" class="btn btn-lg lang-primary" title="Cambiar al español
+">es</button>
+			<button onclick="switchlang('en,en','es,en,en')" class="btn btn-lg lang-secondary" title="Cambiar al inglés
+">en</button>
 		</div>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Texto"><img class="cover-icon cover-icon-text" src="/storybooks-mexico/css/pencil.svg" alt="Texto"></span> Clare Verbeek, Thembani Dladla, Zanele Buthelezi</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustraciones"><img class="cover-icon cover-icon-text" src="/storybooks-mexico/css/art.svg" alt="Ilustraciones"></span> Kathy Arbuckle, Ingrid Schechter</h3>
@@ -100,12 +101,14 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Lengua"><img class="cover-icon cover-icon-text" src="/storybooks-mexico/css/language.svg" alt="Lengua"></span> <a href="/storybooks-mexico/stories/en">inglés</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Nivel"><img class="cover-icon cover-icon-text" src="/storybooks-mexico/css/level.svg" alt="Nivel"></span> <a href="/storybooks-mexico/stories/en/level1">Nivel 1</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Contar el cuento"><img class="cover-icon cover-icon-audio" src="/storybooks-mexico/css/speaker.svg" alt="Contar el cuento completo"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/en/0030/en-0030_feelings.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Velocidad del audio"><img class="cover-icon cover-icon-text" src="/storybooks-mexico/css/speedometer.svg" alt="Velocidad del audio" style="cursor:pointer" onclick="normalspeed()"></span> <span id="slider_tooltip" class="tooltip" data-tooltip="Velocidad del audio: 1×"><input type="range" min="0.5" max="1.5" value="1" step="0.05" id="audio_slider" class="slider" oninput="adjustslider()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Reproducir automáticamente (beta)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="/storybooks-mexico/css/play.svg" alt="Reproducir automáticamente" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
+
 <hr>
 
-<div id="text02" class="columns">
+        <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0030/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt def"><h3>
 	My heart feels a lot of
@@ -127,8 +130,10 @@ things.
 		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,es','es,en,en')" class="btn btn-lg lang-primary" title="Cambiar entre inglés y español">es</button>
-		<button onclick="switchlang('en,en','es,en,en')" class="btn btn-lg lang-secondary" title="Cambiar entre inglés y inglés">en</button>
+		<button onclick="switchlang('en,es','es,en,en')" class="btn btn-lg lang-primary" title="Cambiar al español
+">es</button>
+		<button onclick="switchlang('en,en','es,en,en')" class="btn btn-lg lang-secondary" title="Cambiar al inglés
+">en</button>
 	</div>
 </div>
 
@@ -159,8 +164,10 @@ in the evening.
 		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,es','es,en,en')" class="btn btn-lg lang-primary" title="Cambiar entre inglés y español">es</button>
-		<button onclick="switchlang('en,en','es,en,en')" class="btn btn-lg lang-secondary" title="Cambiar entre inglés y inglés">en</button>
+		<button onclick="switchlang('en,es','es,en,en')" class="btn btn-lg lang-primary" title="Cambiar al español
+">es</button>
+		<button onclick="switchlang('en,en','es,en,en')" class="btn btn-lg lang-secondary" title="Cambiar al inglés
+">en</button>
 	</div>
 </div>
 
@@ -189,8 +196,10 @@ with my friend.
 		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,es','es,en,en')" class="btn btn-lg lang-primary" title="Cambiar entre inglés y español">es</button>
-		<button onclick="switchlang('en,en','es,en,en')" class="btn btn-lg lang-secondary" title="Cambiar entre inglés y inglés">en</button>
+		<button onclick="switchlang('en,es','es,en,en')" class="btn btn-lg lang-primary" title="Cambiar al español
+">es</button>
+		<button onclick="switchlang('en,en','es,en,en')" class="btn btn-lg lang-secondary" title="Cambiar al inglés
+">en</button>
 	</div>
 </div>
 
@@ -221,8 +230,10 @@ money.
 		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,es','es,en,en')" class="btn btn-lg lang-primary" title="Cambiar entre inglés y español">es</button>
-		<button onclick="switchlang('en,en','es,en,en')" class="btn btn-lg lang-secondary" title="Cambiar entre inglés y inglés">en</button>
+		<button onclick="switchlang('en,es','es,en,en')" class="btn btn-lg lang-primary" title="Cambiar al español
+">es</button>
+		<button onclick="switchlang('en,en','es,en,en')" class="btn btn-lg lang-secondary" title="Cambiar al inglés
+">en</button>
 	</div>
 </div>
 
@@ -251,28 +262,34 @@ mom gives me a hug.
 		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Reproducir/pausar"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,es','es,en,en')" class="btn btn-lg lang-primary" title="Cambiar entre inglés y español">es</button>
-		<button onclick="switchlang('en,en','es,en,en')" class="btn btn-lg lang-secondary" title="Cambiar entre inglés y inglés">en</button>
+		<button onclick="switchlang('en,es','es,en,en')" class="btn btn-lg lang-primary" title="Cambiar al español
+">es</button>
+		<button onclick="switchlang('en,en','es,en,en')" class="btn btn-lg lang-secondary" title="Cambiar al inglés
+">en</button>
 	</div>
 </div>
 
 </div>
 <hr>
 
-<div id="colophon" class="columns">
-	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
-		<h5>Texto: Clare Verbeek, Thembani Dladla, Zanele Buthelezi</h5>
-		<h5>Ilustraciones: Kathy Arbuckle, Ingrid Schechter</h5>
-		<h5>Lectura en voz alta: Darshan Soni</h5>
-		<h5>Lengua: <a href="/storybooks-mexico/stories/en">inglés</a></h5>
-		<h5><a href="/storybooks-mexico/stories/en/level1">Nivel 1</a></h5>
-		<h5>Fuente: <a href="https://africanstorybook.org/reader.php?id=2884" target="_blank">Feelings</a> del <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<div><a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/deed.es" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/deed.es" target="_blank">Licencia Creative Commons Atribución-NoComercial 3.0 Internacional</a>.</div>
+        <div id="colophon" class="columns">
+	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
+		<h5><span class="colophon-heading">Texto:</span> Clare Verbeek, Thembani Dladla, Zanele Buthelezi</h5>
+		<h5><span class="colophon-heading">Ilustraciones:</span> Kathy Arbuckle, Ingrid Schechter</h5>
+		<h5><span class="colophon-heading">Lectura en voz alta:</span> Darshan Soni</h5>
+		<h5><span class="colophon-heading">Lengua:</span> <a href="/storybooks-mexico/stories/en">inglés</a></h5>
+		<h5><span class="colophon-heading">Nivel:</span> <a href="/storybooks-mexico/stories/en/level1">Nivel 1</a></h5>
+		<h5><span class="colophon-heading">Fuente:</span> <a href="https://africanstorybook.org/reader.php?id=2884" target="_blank">Feelings</a> del <a href="https://africanstorybook.org/">African Storybook</a>
+</h5>
+
+		<div><a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/" target="_blank"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/" target="_blank">Creative Commons Atribución-NoComercial 3.0 Internacional</a>.
+</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
-		<h5>Leer más cuentos <a href="/storybooks-mexico/stories/en/level1">nivel 1</a>:</h5>
+		<h5>Leer más cuentos <a href="/storybooks-mexico/stories/en/level1">nivel 1</a>:
+</h5>
 			<label class="chip"><a href="/storybooks-mexico/stories/en/0112/">My body</a></label>
 			<label class="chip"><a href="/storybooks-mexico/stories/en/0009/">Where is my cat?</a></label>
 			<label class="chip"><a href="/storybooks-mexico/stories/en/0327/">Counting animals</a></label>
@@ -291,10 +308,9 @@ mom gives me a hug.
 </div>
 <div>
 <h5>Opciones</h5>
-	<a class="btn btn-lg" href="/storybooks-mexico/stories/en" class="button">Regresar a lista de cuentos</a> <a class="btn btn-lg" target="_blank" href="https://globalstorybooks.net/media/cpm/pdf/en/en-0030_sentimientos.pdf">Descargar PDF</a>
+	<a class="btn btn-lg" href="/storybooks-mexico/stories/en" class="button">Regresar a lista de cuentos</a> <a class="btn btn-lg" href="https://globalstorybooks.net/media/cpm/pdf/en/en-0030_sentimientos.pdf" target="_blank">Descargar PDF</a>
 <br><br>
 </div>
-
 
 
     </div>
